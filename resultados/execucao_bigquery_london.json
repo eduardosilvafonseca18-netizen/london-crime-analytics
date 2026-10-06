@@ -1,0 +1,883 @@
+{
+  "estado": "executado_validado",
+  "autor": "Eduardo Silva",
+  "projeto": "london-crime-ebac-20261002",
+  "fonte": "bigquery-public-data.london_crime.crime_by_lsoa",
+  "regiao": "EU",
+  "tabela_estruturada": "london-crime-ebac-20261002.london_crime_analytics.crimes_london",
+  "tabela_consolidada": "london-crime-ebac-20261002.london_crime_analytics.crimes_mensais_bairro_categoria",
+  "inicio_utc": "2026-10-02T16:36:31.480432+00:00",
+  "fim_utc": "2026-10-02T16:37:01.914287+00:00",
+  "ano_referencia": 2016,
+  "ano_inicio_analise": 2011,
+  "schema_origem": [
+    {
+      "campo": "lsoa_code",
+      "tipo": "STRING",
+      "modo": "NULLABLE"
+    },
+    {
+      "campo": "borough",
+      "tipo": "STRING",
+      "modo": "NULLABLE"
+    },
+    {
+      "campo": "major_category",
+      "tipo": "STRING",
+      "modo": "NULLABLE"
+    },
+    {
+      "campo": "minor_category",
+      "tipo": "STRING",
+      "modo": "NULLABLE"
+    },
+    {
+      "campo": "value",
+      "tipo": "INTEGER",
+      "modo": "NULLABLE"
+    },
+    {
+      "campo": "year",
+      "tipo": "INTEGER",
+      "modo": "NULLABLE"
+    },
+    {
+      "campo": "month",
+      "tipo": "INTEGER",
+      "modo": "NULLABLE"
+    }
+  ],
+  "schema_tabela": [
+    {
+      "campo": "lsoa_code",
+      "tipo": "STRING",
+      "modo": "NULLABLE"
+    },
+    {
+      "campo": "borough",
+      "tipo": "STRING",
+      "modo": "NULLABLE"
+    },
+    {
+      "campo": "major_category",
+      "tipo": "STRING",
+      "modo": "NULLABLE"
+    },
+    {
+      "campo": "minor_category",
+      "tipo": "STRING",
+      "modo": "NULLABLE"
+    },
+    {
+      "campo": "value",
+      "tipo": "INTEGER",
+      "modo": "NULLABLE"
+    },
+    {
+      "campo": "year",
+      "tipo": "INTEGER",
+      "modo": "NULLABLE"
+    },
+    {
+      "campo": "month",
+      "tipo": "INTEGER",
+      "modo": "NULLABLE"
+    },
+    {
+      "campo": "data_mes",
+      "tipo": "DATE",
+      "modo": "NULLABLE"
+    }
+  ],
+  "tabela_criada_utc": "2026-10-02T16:36:41.922000+00:00",
+  "tabela_registros": 13490604,
+  "tabela_bytes": 1293637500,
+  "particao": "None",
+  "expiracao_tabela_utc": "2026-12-01 16:36:41.922000+00:00",
+  "decisao_armazenamento": "Clustering por ano, borough, categoria e LSOA. Sem partição por data histórica: no sandbox, a expiração de partições em 60 dias descartaria anos de 2008–2016 imediatamente. A tabela permanece sujeita à expiração automática do sandbox a partir da criação.",
+  "clustering": [
+    "year",
+    "borough",
+    "major_category",
+    "lsoa_code"
+  ],
+  "limite_bytes_por_consulta": 2147483648,
+  "qualidade": [
+    {
+      "registros": 13490604,
+      "crimes": 6447758,
+      "lsoa_invalido": 0,
+      "bairro_invalido": 0,
+      "categoria_invalida": 0,
+      "subcategoria_invalida": 0,
+      "valor_invalido": 0,
+      "periodo_invalido": 0,
+      "registros_zero": 10071505,
+      "primeiro_ano": 2008,
+      "ultimo_ano": 2016,
+      "bairros": 33,
+      "lsoas": 4835,
+      "categorias": 9
+    }
+  ],
+  "duplicidades": [
+    {
+      "registros_duplicados": 0,
+      "grupos_duplicados": 0
+    }
+  ],
+  "jobs": [
+    {
+      "consulta": "query_01_qualidade_origem",
+      "job_id": "e7053973-8ce2-4127-8d91-447633e20283",
+      "regiao": "EU",
+      "bytes_estimados": 1185712668,
+      "bytes_processados": 0,
+      "bytes_faturados": 0,
+      "cache": true,
+      "linhas": 1,
+      "sql_sha256": "8a5d1bf7bdf60cb8f7a88729623f41618827e5ab288804ad6cebda6bfdb7f193",
+      "tipo_instrucao": "SELECT"
+    },
+    {
+      "consulta": "query_02_duplicidades_origem",
+      "job_id": "2ab8c496-306e-4e01-b94d-fca23f5fa8a3",
+      "regiao": "EU",
+      "bytes_estimados": 1077787836,
+      "bytes_processados": 0,
+      "bytes_faturados": 0,
+      "cache": true,
+      "linhas": 1,
+      "sql_sha256": "26731c0d9928c98c3d6d7d6fc6784c82bc0daf9ae0782aa07c32a678f73ceebd",
+      "tipo_instrucao": "SELECT"
+    },
+    {
+      "consulta": "query_03_preview_origem",
+      "job_id": "2506cc61-1a7e-4eb5-96b9-d6625f99cf9a",
+      "regiao": "EU",
+      "bytes_estimados": 1185712668,
+      "bytes_processados": 0,
+      "bytes_faturados": 0,
+      "cache": true,
+      "linhas": 10,
+      "sql_sha256": "17768770d432a086cac63f154f67e9c0d8efb6a844df978fc66e78a646905a50",
+      "tipo_instrucao": "SELECT"
+    },
+    {
+      "consulta": "query_04_estruturar_crimes",
+      "job_id": "2a809339-4526-4f6f-b7eb-233421db735d",
+      "regiao": "EU",
+      "bytes_estimados": 1185712668,
+      "bytes_processados": 1185712668,
+      "bytes_faturados": 1185939456,
+      "cache": false,
+      "linhas": 0,
+      "sql_sha256": "d5a3ed6a187b5e7adc7d27eef209472a2c963dc0041f9c218cb52bd5bcbe8bb3",
+      "tipo_instrucao": "CREATE_TABLE_AS_SELECT"
+    },
+    {
+      "consulta": "query_04b_validar_tabela_salva",
+      "job_id": "3a8a63e7-f55a-4560-b8bc-5f4544a5d3d4",
+      "regiao": "EU",
+      "bytes_estimados": 107924832,
+      "bytes_processados": 107924832,
+      "bytes_faturados": 108003328,
+      "cache": false,
+      "linhas": 1,
+      "sql_sha256": "4c342cd61c5e332600682bcd4c3d7abb35ab0864055f028fa949196e427f49cc",
+      "tipo_instrucao": "SELECT"
+    },
+    {
+      "consulta": "query_05_consolidar_mensal",
+      "job_id": "d5f65600-4b9c-4feb-bdb9-131ca59a56e3",
+      "regiao": "EU",
+      "bytes_estimados": 844974936,
+      "bytes_processados": 844974936,
+      "bytes_faturados": 845152256,
+      "cache": false,
+      "linhas": 0,
+      "sql_sha256": "16764291053069bd9dc215a0b808e390d602debf71b9edcc1325c6d6dbab375b",
+      "tipo_instrucao": "CREATE_TABLE_AS_SELECT"
+    },
+    {
+      "consulta": "query_06_evolucao_mensal",
+      "job_id": "fb5a482f-3018-42eb-9a99-7d59181f11c8",
+      "regiao": "EU",
+      "bytes_estimados": 2202876,
+      "bytes_processados": 2202876,
+      "bytes_faturados": 10485760,
+      "cache": false,
+      "linhas": 31860,
+      "sql_sha256": "962716b0ff70eaeab1f3e0dff53d99582414c405165f0b83fcc3a920d13289ef",
+      "tipo_instrucao": "SELECT"
+    },
+    {
+      "consulta": "query_07_tendencias_bairro_categoria",
+      "job_id": "6e51663c-6328-4182-9a3a-b602aab58c58",
+      "regiao": "EU",
+      "bytes_estimados": 1693116,
+      "bytes_processados": 1693116,
+      "bytes_faturados": 10485760,
+      "cache": false,
+      "linhas": 2655,
+      "sql_sha256": "f8b656bbd4d157bc04a9d66a28ae2e745b377b67316bbbde8b5cbc93f95caf4e",
+      "tipo_instrucao": "SELECT"
+    },
+    {
+      "consulta": "query_08_top3_crimes_por_bairro",
+      "job_id": "115ad7e2-a6b2-4210-81c6-524850202484",
+      "regiao": "EU",
+      "bytes_estimados": 1438236,
+      "bytes_processados": 1438236,
+      "bytes_faturados": 10485760,
+      "cache": false,
+      "linhas": 891,
+      "sql_sha256": "b7b6cb72ec99508ed18fe55f0a92f7f6bea1d86911d8777bf8f2536af795e2d9",
+      "tipo_instrucao": "SELECT"
+    },
+    {
+      "consulta": "query_09_sazonalidade",
+      "job_id": "fe171f13-a4ba-447f-9be4-0ae247a7450b",
+      "regiao": "EU",
+      "bytes_estimados": 1309716,
+      "bytes_processados": 1309716,
+      "bytes_faturados": 10485760,
+      "cache": false,
+      "linhas": 108,
+      "sql_sha256": "e4d8e20a15238ddbf971457efbe84348e9d658ff550e46bc8e56dd94ba113a16",
+      "tipo_instrucao": "SELECT"
+    },
+    {
+      "consulta": "query_10_hotspots_lsoa",
+      "job_id": "1da14f81-13c3-4d4a-a571-2c08135ef4a9",
+      "regiao": "EU",
+      "bytes_estimados": 777521916,
+      "bytes_processados": 777521916,
+      "bytes_faturados": 778043392,
+      "cache": false,
+      "linhas": 4500,
+      "sql_sha256": "6ab0a2080602e722051ba15b744375441fa7138495b8797b5e62ae878cfcceb9",
+      "tipo_instrucao": "SELECT"
+    },
+    {
+      "consulta": "query_11_controle_independente",
+      "job_id": "d80e2ab6-c745-4adb-8072-feb745f87c25",
+      "regiao": "EU",
+      "bytes_estimados": 323774496,
+      "bytes_processados": 323774496,
+      "bytes_faturados": 324009984,
+      "cache": false,
+      "linhas": 9,
+      "sql_sha256": "fdc3f9f84721c9f97ef6c0e111ef1b7f98bac5bfb58b9bcab4a7f36f60d27c91",
+      "tipo_instrucao": "SELECT"
+    }
+  ],
+  "schemas_consultas": {
+    "query_01_qualidade_origem": [
+      {
+        "coluna": "registros",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "crimes",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "lsoa_invalido",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "bairro_invalido",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "categoria_invalida",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "subcategoria_invalida",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "valor_invalido",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "periodo_invalido",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "registros_zero",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "primeiro_ano",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "ultimo_ano",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "bairros",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "lsoas",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "categorias",
+        "tipo": "INTEGER"
+      }
+    ],
+    "query_02_duplicidades_origem": [
+      {
+        "coluna": "registros_duplicados",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "grupos_duplicados",
+        "tipo": "INTEGER"
+      }
+    ],
+    "query_03_preview_origem": [
+      {
+        "coluna": "lsoa_code",
+        "tipo": "STRING"
+      },
+      {
+        "coluna": "borough",
+        "tipo": "STRING"
+      },
+      {
+        "coluna": "major_category",
+        "tipo": "STRING"
+      },
+      {
+        "coluna": "minor_category",
+        "tipo": "STRING"
+      },
+      {
+        "coluna": "value",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "year",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "month",
+        "tipo": "INTEGER"
+      }
+    ],
+    "query_04_estruturar_crimes": [
+      {
+        "coluna": "lsoa_code",
+        "tipo": "STRING"
+      },
+      {
+        "coluna": "borough",
+        "tipo": "STRING"
+      },
+      {
+        "coluna": "major_category",
+        "tipo": "STRING"
+      },
+      {
+        "coluna": "minor_category",
+        "tipo": "STRING"
+      },
+      {
+        "coluna": "value",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "year",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "month",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "data_mes",
+        "tipo": "DATE"
+      }
+    ],
+    "query_04b_validar_tabela_salva": [
+      {
+        "coluna": "registros",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "crimes",
+        "tipo": "INTEGER"
+      }
+    ],
+    "query_05_consolidar_mensal": [
+      {
+        "coluna": "data_mes",
+        "tipo": "DATE"
+      },
+      {
+        "coluna": "ano",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "mes",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "bairro",
+        "tipo": "STRING"
+      },
+      {
+        "coluna": "categoria_original",
+        "tipo": "STRING"
+      },
+      {
+        "coluna": "crimes",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "registros_origem",
+        "tipo": "INTEGER"
+      }
+    ],
+    "query_06_evolucao_mensal": [
+      {
+        "coluna": "data_mes",
+        "tipo": "DATE"
+      },
+      {
+        "coluna": "ano",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "mes",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "bairro",
+        "tipo": "STRING"
+      },
+      {
+        "coluna": "categoria_original",
+        "tipo": "STRING"
+      },
+      {
+        "coluna": "crimes",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "registros_origem",
+        "tipo": "INTEGER"
+      }
+    ],
+    "query_07_tendencias_bairro_categoria": [
+      {
+        "coluna": "ano",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "bairro",
+        "tipo": "STRING"
+      },
+      {
+        "coluna": "categoria_original",
+        "tipo": "STRING"
+      },
+      {
+        "coluna": "crimes",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "meses_disponiveis",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "crimes_anterior",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "ano_anterior",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "meses_anterior",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "variacao_absoluta",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "variacao_yoy",
+        "tipo": "FLOAT"
+      }
+    ],
+    "query_08_top3_crimes_por_bairro": [
+      {
+        "coluna": "ano",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "bairro",
+        "tipo": "STRING"
+      },
+      {
+        "coluna": "categoria_original",
+        "tipo": "STRING"
+      },
+      {
+        "coluna": "crimes",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "posicao",
+        "tipo": "INTEGER"
+      }
+    ],
+    "query_09_sazonalidade": [
+      {
+        "coluna": "categoria_original",
+        "tipo": "STRING"
+      },
+      {
+        "coluna": "mes",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "media_mensal",
+        "tipo": "FLOAT"
+      },
+      {
+        "coluna": "anos_completos",
+        "tipo": "INTEGER"
+      }
+    ],
+    "query_10_hotspots_lsoa": [
+      {
+        "coluna": "ano",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "bairro",
+        "tipo": "STRING"
+      },
+      {
+        "coluna": "lsoa_code",
+        "tipo": "STRING"
+      },
+      {
+        "coluna": "crimes",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "crimes_violencia_pessoa",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "posicao",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "lsoas_bairro",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "total_bairro",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "participacao_bairro",
+        "tipo": "FLOAT"
+      }
+    ],
+    "query_11_controle_independente": [
+      {
+        "coluna": "ano",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "crimes",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "registros_origem",
+        "tipo": "INTEGER"
+      },
+      {
+        "coluna": "meses_disponiveis",
+        "tipo": "INTEGER"
+      }
+    ]
+  },
+  "validacoes": [
+    {
+      "verificacao": "crimes_mensais_iguais_origem_por_ano",
+      "resultado": "OK"
+    },
+    {
+      "verificacao": "registros_consolidados_iguais_origem_por_ano",
+      "resultado": "OK"
+    },
+    {
+      "verificacao": "crimes_anuais_iguais_origem_por_ano",
+      "resultado": "OK"
+    },
+    {
+      "verificacao": "total_fato_igual_origem",
+      "resultado": "OK"
+    },
+    {
+      "verificacao": "chave_fato_unica",
+      "resultado": "OK"
+    },
+    {
+      "verificacao": "dim_data_chave_valida",
+      "resultado": "OK"
+    },
+    {
+      "verificacao": "dim_bairro_chave_valida",
+      "resultado": "OK"
+    },
+    {
+      "verificacao": "dim_crime_chave_valida",
+      "resultado": "OK"
+    },
+    {
+      "verificacao": "sem_bairros_orfaos",
+      "resultado": "OK"
+    },
+    {
+      "verificacao": "sem_categorias_orfas",
+      "resultado": "OK"
+    },
+    {
+      "verificacao": "sem_datas_orfas",
+      "resultado": "OK"
+    },
+    {
+      "verificacao": "calendario_diario_continuo",
+      "resultado": "OK"
+    },
+    {
+      "verificacao": "contagens_nao_negativas",
+      "resultado": "OK"
+    },
+    {
+      "verificacao": "anos_com_12_meses",
+      "resultado": "OK"
+    },
+    {
+      "verificacao": "variacoes_yoy_recalculadas",
+      "resultado": "OK"
+    },
+    {
+      "verificacao": "origem_nao_alterada",
+      "resultado": "OK"
+    }
+  ],
+  "regra_prioridade": {
+    "ano": 2016,
+    "mediana_volume": 23204.5,
+    "mediana_aumento_positivo": 654.5,
+    "criterio": "Violência contra a pessoa cresce em dois intervalos anuais consecutivos, crimes totais aumentam e volume ou aumento absoluto supera os limiares declarados.",
+    "excecao": "City of London: revisar cobertura."
+  },
+  "limites": [
+    "Base histórica: último ano disponível observado, sem afirmar condições atuais.",
+    "Borough é distrito administrativo, não um bairro brasileiro.",
+    "Sem população: volumes não são taxas de risco por habitante.",
+    "Fraude e crimes sexuais têm cobertura interrompida; zeros não demonstram eliminação.",
+    "Violência contra a pessoa é uma categoria específica; roubo não entra nesse indicador.",
+    "Crescimento persistente é descritivo, não inferência causal ou previsão."
+  ],
+  "arquivos": [
+    {
+      "arquivo": "fato_crimes.csv",
+      "linhas": 31860,
+      "colunas": [
+        "data_mes",
+        "bairro_id",
+        "crime_id",
+        "crimes",
+        "registros_origem"
+      ],
+      "sha256": "c053313d73c3d5a0fe7a378962816420b80d05b5c80dd658dd73045bbba93ff1"
+    },
+    {
+      "arquivo": "dim_data.csv",
+      "linhas": 3288,
+      "colunas": [
+        "data",
+        "ano",
+        "mes_numero",
+        "mes_nome",
+        "ano_mes",
+        "trimestre"
+      ],
+      "sha256": "1c288306c3236524ee32beb77a309fad98e67257f8fc8330e91b1f793e60aacb"
+    },
+    {
+      "arquivo": "dim_bairro.csv",
+      "linhas": 33,
+      "colunas": [
+        "bairro_id",
+        "bairro",
+        "localizacao",
+        "cobertura_limitada"
+      ],
+      "sha256": "433b3f52c35cc944ecde326e81b1868c1b960cdb7d34d5dbd2a682a64e91d0b2"
+    },
+    {
+      "arquivo": "dim_crime.csv",
+      "linhas": 9,
+      "colunas": [
+        "crime_id",
+        "categoria_original",
+        "categoria",
+        "violencia_pessoa",
+        "comparacao_limitada"
+      ],
+      "sha256": "2d12ba2cafa350433d82a383bd26be8c497d224d3b5358a0d9632771fd85cc81"
+    },
+    {
+      "arquivo": "evolucao_mensal.csv",
+      "linhas": 31860,
+      "colunas": [
+        "data_mes",
+        "ano",
+        "mes",
+        "bairro",
+        "categoria_original",
+        "crimes",
+        "registros_origem"
+      ],
+      "sha256": "e8befb6bcda4b4cd7b4d205050efcedd928c6539f3b450229e0dcbaa927c4c3a"
+    },
+    {
+      "arquivo": "tendencias_anuais.csv",
+      "linhas": 2655,
+      "colunas": [
+        "ano",
+        "bairro",
+        "categoria_original",
+        "crimes",
+        "meses_disponiveis",
+        "crimes_anterior",
+        "ano_anterior",
+        "meses_anterior",
+        "variacao_absoluta",
+        "variacao_yoy"
+      ],
+      "sha256": "c79851a2043f57c41cd4621523cd7282fa40af3ee1b319e88d6a8a4ba279f7ed"
+    },
+    {
+      "arquivo": "top3_crimes_bairro.csv",
+      "linhas": 891,
+      "colunas": [
+        "ano",
+        "bairro",
+        "categoria_original",
+        "crimes",
+        "posicao"
+      ],
+      "sha256": "4aea60889ad634a55d2765e24fdd45697d653f929db4d6d7a3674b6157f036b7"
+    },
+    {
+      "arquivo": "sazonalidade.csv",
+      "linhas": 108,
+      "colunas": [
+        "categoria_original",
+        "mes",
+        "media_mensal",
+        "anos_completos"
+      ],
+      "sha256": "cc3d81f0a7942e63a85b3fe6bd179830738bddf267feeb7dc7664babe64ec232"
+    },
+    {
+      "arquivo": "hotspots_lsoa.csv",
+      "linhas": 4500,
+      "colunas": [
+        "ano",
+        "bairro",
+        "lsoa_code",
+        "crimes",
+        "crimes_violencia_pessoa",
+        "posicao",
+        "lsoas_bairro",
+        "total_bairro",
+        "participacao_bairro"
+      ],
+      "sha256": "ffd9524a31634cb998e95d267733cdb7d81d7f937df6e17181dd68f29c756cc1"
+    },
+    {
+      "arquivo": "prioridades_bairros.csv",
+      "linhas": 33,
+      "colunas": [
+        "bairro",
+        "ano_referencia",
+        "crimes",
+        "crimes_anterior",
+        "variacao_absoluta",
+        "variacao_yoy",
+        "violencia_pessoa",
+        "violencia_anterior",
+        "violencia_dois_anos_antes",
+        "violencia_crescimento_persistente",
+        "prioridade",
+        "ordem_prioridade"
+      ],
+      "sha256": "27cba3933545350bf41875993ae3f89566f3c83525065576f77cf89c7d9932e5"
+    },
+    {
+      "arquivo": "controle_anual_origem.csv",
+      "linhas": 9,
+      "colunas": [
+        "ano",
+        "crimes",
+        "registros_origem",
+        "meses_disponiveis"
+      ],
+      "sha256": "6a96aa61d106173e90bde09a9eaaf3157dc83cbd3c7ad2bad95d5e20dab834d5"
+    },
+    {
+      "arquivo": "qualidade_origem.csv",
+      "linhas": 1,
+      "colunas": [
+        "registros",
+        "crimes",
+        "lsoa_invalido",
+        "bairro_invalido",
+        "categoria_invalida",
+        "subcategoria_invalida",
+        "valor_invalido",
+        "periodo_invalido",
+        "registros_zero",
+        "primeiro_ano",
+        "ultimo_ano",
+        "bairros",
+        "lsoas",
+        "categorias"
+      ],
+      "sha256": "c0f054ba151affbc12ff64a4ecb2d3395b0d07628759c4814d009220991687a4"
+    },
+    {
+      "arquivo": "preview_origem.csv",
+      "linhas": 10,
+      "colunas": [
+        "lsoa_code",
+        "borough",
+        "major_category",
+        "minor_category",
+        "value",
+        "year",
+        "month"
+      ],
+      "sha256": "416dd51886b01a26b50ae81a68dbb62d73d47dea5502f632989364b4f4f5adf5"
+    }
+  ]
+}

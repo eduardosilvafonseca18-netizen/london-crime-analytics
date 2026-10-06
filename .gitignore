@@ -1,0 +1,30 @@
+# Ambiente Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Credenciais locais
+.env
+.env.*
+!.env.example
+credentials*.json
+client_secret*.json
+service_account*.json
+application_default_credentials.json
+*.pem
+*.key
+
+# Estado local do Power BI
+**/.pbi/
+**/localSettings.json
+**/cache.abf
+
+# Arquivos temporários
+.DS_Store
+Thumbs.db
+~$*
+transferencia_*
+_backups/
+

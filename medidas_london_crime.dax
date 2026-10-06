@@ -1,0 +1,89 @@
+// Indicadores
+Crimes =
+SUM('FatoCrimes'[quantidade_crimes])
+
+// Comparações
+Crimes ano anterior =
+CALCULATE([Crimes], DATEADD('DimData'[data], -1, YEAR))
+
+// Comparações
+Variação absoluta =
+VAR Anterior = [Crimes ano anterior]
+RETURN IF(NOT ISBLANK(Anterior), [Crimes] - Anterior)
+
+// Comparações
+Variação anual % =
+VAR Anterior = [Crimes ano anterior]
+RETURN IF(Anterior > 0, DIVIDE([Crimes] - Anterior, Anterior))
+
+// Indicadores
+Violência contra a pessoa =
+CALCULATE([Crimes], REMOVEFILTERS('DimCrime'), 'DimCrime'[violencia_pessoa] = TRUE())
+
+// Referência
+Crimes referência =
+CALCULATE([Crimes], REMOVEFILTERS('DimData'), 'DimData'[ano] = 2016)
+
+// Referência
+Crimes referência anterior =
+CALCULATE([Crimes], REMOVEFILTERS('DimData'), 'DimData'[ano] = 2015)
+
+// Referência
+Variação referência % =
+DIVIDE([Crimes referência] - [Crimes referência anterior], [Crimes referência anterior])
+
+// Referência
+Violência referência =
+CALCULATE([Violência contra a pessoa], REMOVEFILTERS('DimData'), 'DimData'[ano] = 2016)
+
+// Referência
+Crimes 2011 =
+CALCULATE([Crimes], REMOVEFILTERS('DimData'), 'DimData'[ano] = 2011)
+
+// Referência
+Variação 2011 a 2016 % =
+DIVIDE([Crimes referência] - [Crimes 2011], [Crimes 2011])
+
+// Sazonalidade
+Média mensal 2011 a 2016 =
+AVERAGEX(VALUES('DimData'[ano]), [Crimes])
+
+// Priorização
+Distritos prioritários =
+COALESCE(CALCULATE(COUNTROWS('Prioridades'), KEEPFILTERS('Prioridades'[prioridade] = "Priorizar prevenção")), 0)
+
+// Priorização
+Crimes prioridade =
+SUM('Prioridades'[crimes])
+
+// Priorização
+Aumento prioridade =
+SUM('Prioridades'[variacao_absoluta])
+
+// Priorização
+Variação prioridade % =
+DIVIDE(SUM('Prioridades'[variacao_absoluta]), SUM('Prioridades'[crimes_anterior]))
+
+// Microáreas
+Crimes LSOA =
+SUM('Hotspots'[crimes])
+
+// Microáreas
+Concentração LSOA % =
+IF(HASONEVALUE('DimBairro'[bairro]), DIVIDE(SUM('Hotspots'[crimes]), MAX('Hotspots'[total_bairro])))
+
+// Qualidade
+Validações aprovadas =
+CALCULATE(COUNTROWS('Validacoes'), 'Validacoes'[resultado] = "OK")
+
+// Qualidade
+Registros da origem =
+13490604
+
+// Qualidade
+Crimes na origem =
+6447758
+
+// Qualidade
+Qualidade da comparação =
+IF(SELECTEDVALUE('DimCrime'[comparacao_limitada], FALSE()), "Cobertura interrompida", "Contagem comparável")

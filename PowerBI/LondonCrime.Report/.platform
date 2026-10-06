@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "LondonCrime"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "45b2719b-aeb3-4b6f-883d-e5472403904d"
+  }
+}

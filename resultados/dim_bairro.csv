@@ -1,0 +1,34 @@
+﻿bairro_id,bairro,localizacao,cobertura_limitada
+1,Barking and Dagenham,"Barking and Dagenham, London, United Kingdom",False
+2,Barnet,"Barnet, London, United Kingdom",False
+3,Bexley,"Bexley, London, United Kingdom",False
+4,Brent,"Brent, London, United Kingdom",False
+5,Bromley,"Bromley, London, United Kingdom",False
+6,Camden,"Camden, London, United Kingdom",False
+7,City of London,"City of London, London, United Kingdom",True
+8,Croydon,"Croydon, London, United Kingdom",False
+9,Ealing,"Ealing, London, United Kingdom",False
+10,Enfield,"Enfield, London, United Kingdom",False
+11,Greenwich,"Greenwich, London, United Kingdom",False
+12,Hackney,"Hackney, London, United Kingdom",False
+13,Hammersmith and Fulham,"Hammersmith and Fulham, London, United Kingdom",False
+14,Haringey,"Haringey, London, United Kingdom",False
+15,Harrow,"Harrow, London, United Kingdom",False
+16,Havering,"Havering, London, United Kingdom",False
+17,Hillingdon,"Hillingdon, London, United Kingdom",False
+18,Hounslow,"Hounslow, London, United Kingdom",False
+19,Islington,"Islington, London, United Kingdom",False
+20,Kensington and Chelsea,"Kensington and Chelsea, London, United Kingdom",False
+21,Kingston upon Thames,"Kingston upon Thames, London, United Kingdom",False
+22,Lambeth,"Lambeth, London, United Kingdom",False
+23,Lewisham,"Lewisham, London, United Kingdom",False
+24,Merton,"Merton, London, United Kingdom",False
+25,Newham,"Newham, London, United Kingdom",False
+26,Redbridge,"Redbridge, London, United Kingdom",False
+27,Richmond upon Thames,"Richmond upon Thames, London, United Kingdom",False
+28,Southwark,"Southwark, London, United Kingdom",False
+29,Sutton,"Sutton, London, United Kingdom",False
+30,Tower Hamlets,"Tower Hamlets, London, United Kingdom",False
+31,Waltham Forest,"Waltham Forest, London, United Kingdom",False
+32,Wandsworth,"Wandsworth, London, United Kingdom",False
+33,Westminster,"Westminster, London, United Kingdom",False

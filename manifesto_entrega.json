@@ -1,0 +1,481 @@
+{
+  "descricao": "Projeto London Crime organizado para GitHub; PBIX final preservado; README de portfolio e relatorio tecnico incluidos.",
+  "pendencias": [],
+  "arquivos": [
+    {
+      "arquivo": ".gitattributes",
+      "bytes": 150,
+      "sha256": "2f4ccf67de0f00bda890f548a2c960d0ba98826e3e87861f3fc51e0c36258131"
+    },
+    {
+      "arquivo": ".gitignore",
+      "bytes": 374,
+      "sha256": "750bc52963853b926eda46b096636cec40dd07416a7a8c466ec6d1349f78bafb"
+    },
+    {
+      "arquivo": "LondonCrime.pbix",
+      "bytes": 570789,
+      "sha256": "3f98fc573b67aa5affac9857ecd8a92f7a756763f2d1d0cc7de8b4cfb8f12c63"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/.platform",
+      "bytes": 296,
+      "sha256": "73013ee530a48669e37b7e400789daf616f3319d4d0132bc6de4c754d835824e"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/01_executivo/page.json",
+      "bytes": 5084,
+      "sha256": "9c727f22fe5e2d70e609f041859f9e41c43e1401272a573e7ee81334d25b0eb2"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/01_executivo/visuals/categorias_yoy/visual.json",
+      "bytes": 10335,
+      "sha256": "23369a1a63f65b1e9a9b2a59a371774a36c5cad89fa4c3b288ebb6d988d2c5b6"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/01_executivo/visuals/evolucao/visual.json",
+      "bytes": 10178,
+      "sha256": "e543eaeb4ab238f634dfa9b415874f52262a7256961ca4045c29d6f0603c5d41"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/01_executivo/visuals/filtro_bairro/visual.json",
+      "bytes": 6879,
+      "sha256": "efc9be5cb7bfacb1fa15e5a105c88ff3fa16bdadffa1a72a66844cdea241ad08"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/01_executivo/visuals/insight/visual.json",
+      "bytes": 5892,
+      "sha256": "39f8286d149a92992017a79ff3a1e14ddede7bcfd48354ab18021b3260b54a5a"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/01_executivo/visuals/kpi_prioritarios/visual.json",
+      "bytes": 6636,
+      "sha256": "5ef1b407c4f52fe302a4b9ea110e3847a955464e96f34b69585e4969fa7e1458"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/01_executivo/visuals/kpi_variacao/visual.json",
+      "bytes": 6618,
+      "sha256": "75856daf691108d9103161fb9678610c8036801ba85e3f111961fb8697875a18"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/01_executivo/visuals/kpi_violencia/visual.json",
+      "bytes": 6630,
+      "sha256": "edbeada203f2bf0777ceeb88f7911576ab20f42e2286f8c5dbfb84d1442063f7"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/01_executivo/visuals/kpi_volume/visual.json",
+      "bytes": 6594,
+      "sha256": "28f279671e2485468ed45da4a0a7de33f59b02b45d2a3fee285fe76ba2a75bdf"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/01_executivo/visuals/prioridades_resumo/visual.json",
+      "bytes": 12843,
+      "sha256": "a21800149eaa4a922374e1decf462fa244e864afb4c14a73d7e1133b350cd3db"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/01_executivo/visuals/rodape/visual.json",
+      "bytes": 4753,
+      "sha256": "3ce705ec1eceb4c736cc4d06ad7b6c644c3137af35e898a6c2a95579aee1fa9a"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/01_executivo/visuals/titulo/visual.json",
+      "bytes": 4687,
+      "sha256": "8f5e204da7e6d51499b7a5fc7994d71a51651b262ceceacebd63c3616a99a7a1"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/02_tendencias/page.json",
+      "bytes": 5090,
+      "sha256": "6d8e4e60a707168e10550b9de12fb8cb5d12bc8080d1b283fb4e0c29ab9a9b45"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/02_tendencias/visuals/categorias_longo/visual.json",
+      "bytes": 9978,
+      "sha256": "49da6b6a8c6449d0c8392f29e79c0f6b006247aa612b439dde41307781b59423"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/02_tendencias/visuals/filtro_bairro/visual.json",
+      "bytes": 6878,
+      "sha256": "ef26ae9711e1d5be60e1af6fe19adc91f6edbf0d99b0d5c9d4383703e98b8efe"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/02_tendencias/visuals/filtro_crime/visual.json",
+      "bytes": 6904,
+      "sha256": "f76769b0ca23214bd3a7da004df998e9ca21d804e9843523f24ea3f4ba38c3fa"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/02_tendencias/visuals/linha_mensal/visual.json",
+      "bytes": 10236,
+      "sha256": "8f818dc2a3604cb91bb6d9de3c6f7da04d85b0d4ac69c57ddeeeedfedaac9471"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/02_tendencias/visuals/rodape/visual.json",
+      "bytes": 4799,
+      "sha256": "ef5ef9fb3c25a83c936fd43c07999a37617807fd874f99541315eb2843c6d1f2"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/02_tendencias/visuals/sazonalidade/visual.json",
+      "bytes": 10322,
+      "sha256": "ab616bb9ba2d3461fa5de3345fdec2077752beeda502d1803c23958e3055063a"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/02_tendencias/visuals/serie_violencia/visual.json",
+      "bytes": 10297,
+      "sha256": "1deced968a5dd3f159a706ea31d3a03192d2e1bce4b2a106d95e183e524e18fe"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/02_tendencias/visuals/titulo/visual.json",
+      "bytes": 4681,
+      "sha256": "a05f1bb62a294ea23bb80d323715862e723f2254f050e098b8ccc38c6a1d3b0c"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/03_territorio/page.json",
+      "bytes": 2672,
+      "sha256": "10825bc5cf07b916cd3e2cd8de491f8da6154ad0050144c54aabb7c18f6f83ab"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/03_territorio/visuals/criterio/visual.json",
+      "bytes": 6355,
+      "sha256": "42f519ebdc4b5dafa3352d1a767041429fb5dffa2f557ac154eaf41706a99eb6"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/03_territorio/visuals/filtro_bairro/visual.json",
+      "bytes": 6880,
+      "sha256": "2d7b18170331450a29c009cedbdf8f052451459e4bc6dab24729fe874af0463d"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/03_territorio/visuals/lista_prioridades/visual.json",
+      "bytes": 11380,
+      "sha256": "c61b329e73e851f4ffaa2da453f7b6fe30d622decdecb3b084310ae93768f487"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/03_territorio/visuals/lsoas/visual.json",
+      "bytes": 10842,
+      "sha256": "5ff1f16733bfb72f84095a6ac34b6d08a8ad5a111055c24a82a96fed9be13aac"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/03_territorio/visuals/rodape/visual.json",
+      "bytes": 4789,
+      "sha256": "0ebb5e297c418148ba0035714b1b50ee74e4b0802a58436db175e0f7bb92f842"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/03_territorio/visuals/titulo/visual.json",
+      "bytes": 4683,
+      "sha256": "0af27b57659fe33acd0b0e52dbbd1b0dd7ff23e4e4c7ff4a79c760fa5606d0d3"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/03_territorio/visuals/volume_bairros/visual.json",
+      "bytes": 13591,
+      "sha256": "d44ffcfe179bbd4f0a9a0346c945fa3b650f2f3b849babf320c4e663e6d4a2e4"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/04_qualidade/page.json",
+      "bytes": 1218,
+      "sha256": "9a76d29311f7f28da0490f2384a058e757b92b53f4311cd628c1068547194e06"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/04_qualidade/visuals/checks/visual.json",
+      "bytes": 6618,
+      "sha256": "71f00961a6e5b1523f35447f53c153b9f0e0e4a36ca38abf980781512deee8f3"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/04_qualidade/visuals/crimes/visual.json",
+      "bytes": 6598,
+      "sha256": "b47ead4aed0d14402c90ca0b82520c3e942d1f7c182f138a5c081f7b938afb3e"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/04_qualidade/visuals/fonte/visual.json",
+      "bytes": 6056,
+      "sha256": "a13e6a78968fc3baa5b0bc3fec39c4ed823a1da50b3ea6dbfcfa6e4c2a1ce578"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/04_qualidade/visuals/linhas/visual.json",
+      "bytes": 6617,
+      "sha256": "71ded83d674c5bac995a19fcca3b1063766b6ddaf39b6651f0f3e9d58b47552c"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/04_qualidade/visuals/schema/visual.json",
+      "bytes": 8975,
+      "sha256": "e608c1c00ce18002e8f8f5fd10e8e9945a567e8f21c11021ed0a403667a7d8f4"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/04_qualidade/visuals/titulo/visual.json",
+      "bytes": 4686,
+      "sha256": "04c1f5c085ebec2ad8af9da979dc0223036356bde18899982754a40c58b36fd7"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/04_qualidade/visuals/validacoes/visual.json",
+      "bytes": 8588,
+      "sha256": "b6e1de43b19e03c38bc1ea4db0e33dc8eeb90481793b3b28795bace6309e5521"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/pages/pages.json",
+      "bytes": 265,
+      "sha256": "1ed3494cdecc7bbe14223390cafeb199457a6f59a1001febeff67a7f567fc317"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/report.json",
+      "bytes": 468,
+      "sha256": "3ca8b418be5ad55c2fe18b983f74be5188728d22835a2a03f2082a2ba26bc75e"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition/version.json",
+      "bytes": 150,
+      "sha256": "0f9f217a60981bf882d7b1963977fc72cc051078df8512b46caa607aff2e5220"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.Report/definition.pbir",
+      "bytes": 238,
+      "sha256": "59cafec8b56ad0d26889a89e45de5d454f85a47ff1821ae09f45b6aeea1fc837"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.SemanticModel/.platform",
+      "bytes": 303,
+      "sha256": "c2f6c70017b94c60a43b767372d63914d54f646766a0ddab62e2497c8c290149"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.SemanticModel/definition.pbism",
+      "bytes": 194,
+      "sha256": "e1efe9b0b2da6fa5e2157d1970e7cd585e698ecf3aeddce362d703ff6700d328"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.SemanticModel/model.bim",
+      "bytes": 2356688,
+      "sha256": "bc247dc0cd99a096344118a94181d64a7ba66542fa264d656d1df39cb16ce732"
+    },
+    {
+      "arquivo": "PowerBI/LondonCrime.pbip",
+      "bytes": 278,
+      "sha256": "4bf1b3fc9548f9d9228b3c1edd4ca69a7bb3323b10f1e08c91e40161e14fcfda"
+    },
+    {
+      "arquivo": "README.md",
+      "bytes": 6715,
+      "sha256": "f8fc8e602e11a798f9137a8cf5db53d41f20e718be7c0d693c2b44509f8967cb"
+    },
+    {
+      "arquivo": "RELATORIO_TECNICO.md",
+      "bytes": 17548,
+      "sha256": "655ee9513ad18339227c549a24612cf3e9e9730513387036314853f59fcdd2dc"
+    },
+    {
+      "arquivo": "conexao_bigquery_london_crime.py",
+      "bytes": 26412,
+      "sha256": "a70f16a076516cc56d9b59565cf3fd983c04ef0a05d427ab5c9b8bc16e3f6985"
+    },
+    {
+      "arquivo": "dashboard_powerbi_desktop.png",
+      "bytes": 152120,
+      "sha256": "b361d15c02c005a78a7e9d8cd4717ac668a4a3c82076ad0b5c8d811d0b805301"
+    },
+    {
+      "arquivo": "evidencia_bigquery_via_python.jpg",
+      "bytes": 65435,
+      "sha256": "337f25e8ee3461e2ae07fa02f87b0b9a262c7fc19b3f1241d0b314efeb6017e0"
+    },
+    {
+      "arquivo": "gerar_previa_dashboard.py",
+      "bytes": 6980,
+      "sha256": "a13db7386f313a0fc02fd8b836011610012530e8119e2b9affaf334a25e9bacf"
+    },
+    {
+      "arquivo": "medidas_london_crime.dax",
+      "bytes": 2301,
+      "sha256": "b6fa5fc44c896701ce6f9fadd71bfac9d9b661113890049d926578a1db46a058"
+    },
+    {
+      "arquivo": "preparar_projeto_powerbi.py",
+      "bytes": 35018,
+      "sha256": "f414f4a009b18dcbde5cb08892cb8e3a0488f9008781fa86eb19e69bca76e2ab"
+    },
+    {
+      "arquivo": "print_bigquery_london_crime.png",
+      "bytes": 139650,
+      "sha256": "5e75028166742fc1bd59026da1e74e9ca99d72a0d2179f599751383f202d9ed7"
+    },
+    {
+      "arquivo": "print_bigquery_schema_london_crime.png",
+      "bytes": 132237,
+      "sha256": "7d46c1a4cc59141fdddddfddf993a37e2106020c0442ea6a5b8a5f2450bd381b"
+    },
+    {
+      "arquivo": "requirements.txt",
+      "bytes": 46,
+      "sha256": "9c8d644dae6bda3cfdebc245ca911f246677b4b4a816dd1c071c009f59f56213"
+    },
+    {
+      "arquivo": "requirements_preparacao.txt",
+      "bytes": 59,
+      "sha256": "2b395700507ed287369819c1bb10239cd7e4b8ac46dffa8a1bb841454b8b1a5a"
+    },
+    {
+      "arquivo": "resultados/controle_anual_origem.csv",
+      "bytes": 256,
+      "sha256": "6a96aa61d106173e90bde09a9eaaf3157dc83cbd3c7ad2bad95d5e20dab834d5"
+    },
+    {
+      "arquivo": "resultados/dim_bairro.csv",
+      "bytes": 1926,
+      "sha256": "433b3f52c35cc944ecde326e81b1868c1b960cdb7d34d5dbd2a682a64e91d0b2"
+    },
+    {
+      "arquivo": "resultados/dim_crime.csv",
+      "bytes": 514,
+      "sha256": "2d12ba2cafa350433d82a383bd26be8c497d224d3b5358a0d9632771fd85cc81"
+    },
+    {
+      "arquivo": "resultados/dim_data.csv",
+      "bytes": 109382,
+      "sha256": "1c288306c3236524ee32beb77a309fad98e67257f8fc8330e91b1f793e60aacb"
+    },
+    {
+      "arquivo": "resultados/evolucao_mensal.csv",
+      "bytes": 1674204,
+      "sha256": "e8befb6bcda4b4cd7b4d205050efcedd928c6539f3b450229e0dcbaa927c4c3a"
+    },
+    {
+      "arquivo": "resultados/execucao_bigquery_london.json",
+      "bytes": 21281,
+      "sha256": "813930778307ec5d13d9d6776298c2630f76ebe0e3c0b241c01d6e272d3f84e3"
+    },
+    {
+      "arquivo": "resultados/fato_crimes.csv",
+      "bytes": 729216,
+      "sha256": "c053313d73c3d5a0fe7a378962816420b80d05b5c80dd658dd73045bbba93ff1"
+    },
+    {
+      "arquivo": "resultados/hotspots_lsoa.csv",
+      "bytes": 296007,
+      "sha256": "ffd9524a31634cb998e95d267733cdb7d81d7f937df6e17181dd68f29c756cc1"
+    },
+    {
+      "arquivo": "resultados/preview_origem.csv",
+      "bytes": 836,
+      "sha256": "416dd51886b01a26b50ae81a68dbb62d73d47dea5502f632989364b4f4f5adf5"
+    },
+    {
+      "arquivo": "resultados/prioridades_bairros.csv",
+      "bytes": 3253,
+      "sha256": "27cba3933545350bf41875993ae3f89566f3c83525065576f77cf89c7d9932e5"
+    },
+    {
+      "arquivo": "resultados/qualidade_origem.csv",
+      "bytes": 245,
+      "sha256": "c0f054ba151affbc12ff64a4ecb2d3395b0d07628759c4814d009220991687a4"
+    },
+    {
+      "arquivo": "resultados/sazonalidade.csv",
+      "bytes": 3667,
+      "sha256": "cc3d81f0a7942e63a85b3fe6bd179830738bddf267feeb7dc7664babe64ec232"
+    },
+    {
+      "arquivo": "resultados/sql/query_01_qualidade_origem.sql",
+      "bytes": 889,
+      "sha256": "d1f693d1033d447a34dc83b230095d4dac986c45ba9dc476ac067f696199eb71"
+    },
+    {
+      "arquivo": "resultados/sql/query_02_duplicidades_origem.sql",
+      "bytes": 353,
+      "sha256": "b5641529a13b067d9222df1ed233698b6615ed9594bf4b2f41c42704fbb2d8ca"
+    },
+    {
+      "arquivo": "resultados/sql/query_03_preview_origem.sql",
+      "bytes": 215,
+      "sha256": "9b029c8751fc5f9c3660ffccd0ecaefbdc190932f060249c2159e36dbe90bd26"
+    },
+    {
+      "arquivo": "resultados/sql/query_04_estruturar_crimes.sql",
+      "bytes": 446,
+      "sha256": "7cc7d8b90e46058ee826fb6298d902f03886744ec2c7c73230fea9e1e424c09c"
+    },
+    {
+      "arquivo": "resultados/sql/query_04b_validar_tabela_salva.sql",
+      "bytes": 122,
+      "sha256": "39822c1a3fd4417323d3a0ec3928a697e1a6507f6b135851e0eaee3e8881c805"
+    },
+    {
+      "arquivo": "resultados/sql/query_05_consolidar_mensal.sql",
+      "bytes": 549,
+      "sha256": "75857c8eaf4973415ce1cf0d9e4bd11acfce46cfa1938efd73a838b8719ca665"
+    },
+    {
+      "arquivo": "resultados/sql/query_06_evolucao_mensal.sql",
+      "bytes": 215,
+      "sha256": "e25f07c291c5c66d1d70dca8618c2d0e56a43e10c4850ba9bc31a34b71f5d71f"
+    },
+    {
+      "arquivo": "resultados/sql/query_07_tendencias_bairro_categoria.sql",
+      "bytes": 993,
+      "sha256": "6acdff27aa555318d2b62d3333f0332b8455d9e3545ac45fba4f567d9783e952"
+    },
+    {
+      "arquivo": "resultados/sql/query_08_top3_crimes_por_bairro.sql",
+      "bytes": 399,
+      "sha256": "22ad2a3476ee7fdf85dc78734830c1a513fbde36df0a9def1903210aef33d516"
+    },
+    {
+      "arquivo": "resultados/sql/query_09_sazonalidade.sql",
+      "bytes": 593,
+      "sha256": "dcf142f7f69e69c8f7857c2619bcfa028bd2a615b02aa43604459639e139b944"
+    },
+    {
+      "arquivo": "resultados/sql/query_10_hotspots_lsoa.sql",
+      "bytes": 741,
+      "sha256": "a073208a617b056ec98dcecafd9fb8cce82b5e8ed48fc85817727e17bb2be3ab"
+    },
+    {
+      "arquivo": "resultados/sql/query_11_controle_independente.sql",
+      "bytes": 203,
+      "sha256": "c422a90e7026aad31a8bc8c781d624249b3970dad63243587ed1a347e7dc76a3"
+    },
+    {
+      "arquivo": "resultados/tendencias_anuais.csv",
+      "bytes": 199813,
+      "sha256": "c79851a2043f57c41cd4621523cd7282fa40af3ee1b319e88d6a8a4ba279f7ed"
+    },
+    {
+      "arquivo": "resultados/top3_crimes_bairro.csv",
+      "bytes": 37500,
+      "sha256": "4aea60889ad634a55d2765e24fdd45697d653f929db4d6d7a3674b6157f036b7"
+    },
+    {
+      "arquivo": "resumo_analitico.json",
+      "bytes": 7671,
+      "sha256": "748297c33c7d6e91556e6916bdc407275081c1562cf32335bd936990b04583b2"
+    },
+    {
+      "arquivo": "revisao_projeto_powerbi.json",
+      "bytes": 3988,
+      "sha256": "06ee3929c543808204478d033d1780739b47829c5833690f4324dd62ef961a3c"
+    },
+    {
+      "arquivo": "schema_pages_metadata_1_1.json",
+      "bytes": 1449,
+      "sha256": "8c66d2ae1b536718d3da37f1b012d7e6b3b210da2df2bf5664ee9421f0befe6c"
+    },
+    {
+      "arquivo": "schemas_powerbi.json",
+      "bytes": 269238,
+      "sha256": "a9e353b90bfb4f1b853208cf4927d5ef1e9cabc568f983063635d58826f46ed7"
+    },
+    {
+      "arquivo": "validacao_conector_bigquery_nativo.json",
+      "bytes": 1216,
+      "sha256": "a62a6df82e1e23e15790eb49f47926ece943dd18e1db0ea6344da26a39f701ee"
+    },
+    {
+      "arquivo": "validacao_nativa_powerbi.dax",
+      "bytes": 906,
+      "sha256": "49f348ce3958fd5f78d22e00d76f679113ac8290738bd3648cfaf8faebd3cee0"
+    },
+    {
+      "arquivo": "validacao_nativa_powerbi.json",
+      "bytes": 1099,
+      "sha256": "9f10f0f8e71fbaf1c36bd236c6fa7a0e3ef862f3ffb940e9df39bc465c0d2634"
+    },
+    {
+      "arquivo": "validacao_parametro_bigquery_nativo.json",
+      "bytes": 236,
+      "sha256": "52175f1d8d8698ea649aa9f3163efe6b38019aaf36a1438b697bcec0b7c75eaa"
+    }
+  ]
+}

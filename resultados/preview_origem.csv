@@ -1,0 +1,11 @@
+﻿lsoa_code,borough,major_category,minor_category,value,year,month
+E01000006,Barking and Dagenham,Burglary,Burglary in Other Buildings,0,2008,1
+E01000006,Barking and Dagenham,Burglary,Burglary in a Dwelling,1,2008,1
+E01000006,Barking and Dagenham,Criminal Damage,Criminal Damage To Dwelling,1,2008,1
+E01000006,Barking and Dagenham,Criminal Damage,Criminal Damage To Motor Vehicle,0,2008,1
+E01000006,Barking and Dagenham,Criminal Damage,Criminal Damage To Other Building,0,2008,1
+E01000006,Barking and Dagenham,Criminal Damage,Other Criminal Damage,0,2008,1
+E01000006,Barking and Dagenham,Drugs,Drug Trafficking,0,2008,1
+E01000006,Barking and Dagenham,Drugs,Possession Of Drugs,0,2008,1
+E01000006,Barking and Dagenham,Other Notifiable Offences,Other Notifiable,0,2008,1
+E01000006,Barking and Dagenham,Robbery,Personal Property,2,2008,1

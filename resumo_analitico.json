@@ -1,0 +1,269 @@
+{
+  "estado": "entrega_completa_validada",
+  "fonte": "bigquery-public-data.london_crime.crime_by_lsoa",
+  "ano_referencia": 2016,
+  "kpis_londres": {
+    "crimes": 736121,
+    "crimes_2015": 711624,
+    "variacao_yoy": 0.03442407788382629,
+    "violencia_pessoa": 232381,
+    "distritos_prioritarios": 19
+  },
+  "categorias_yoy_2016": {
+    "Burglary": -0.0312672899317624,
+    "Criminal Damage": 0.017387576219512195,
+    "Drugs": -0.0218926731180093,
+    "Other Notifiable Offences": 0.1110408321034507,
+    "Robbery": 0.05354721040078567,
+    "Theft and Handling": 0.03559935497954384,
+    "Violence Against the Person": 0.06236170796379263
+  },
+  "categorias_2011_2016": {
+    "Burglary": -0.26823125971172906,
+    "Criminal Damage": -0.0964971655808444,
+    "Drugs": -0.32382276281494354,
+    "Other Notifiable Offences": 0.5402377240841777,
+    "Robbery": -0.3858065923280351,
+    "Theft and Handling": -0.04901193693984972,
+    "Violence Against the Person": 0.5818884827196548
+  },
+  "checks_filtro_bairro": {
+    "Haringey": {
+      "crimes": 27174,
+      "crimes_anterior": 24626,
+      "variacao_yoy": 0.1034678794769755,
+      "violencia_pessoa": 8574,
+      "prioridade": "Priorizar prevenção"
+    },
+    "Brent": {
+      "crimes": 26693,
+      "crimes_anterior": 24883,
+      "variacao_yoy": 0.0727404251898886,
+      "violencia_pessoa": 9205,
+      "prioridade": "Priorizar prevenção"
+    },
+    "Greenwich": {
+      "crimes": 22730,
+      "crimes_anterior": 20929,
+      "variacao_yoy": 0.0860528453342252,
+      "violencia_pessoa": 8590,
+      "prioridade": "Priorizar prevenção"
+    },
+    "Tower Hamlets": {
+      "crimes": 29253,
+      "crimes_anterior": 27493,
+      "variacao_yoy": 0.0640162950569235,
+      "violencia_pessoa": 9608,
+      "prioridade": "Priorizar prevenção"
+    },
+    "Southwark": {
+      "crimes": 31636,
+      "crimes_anterior": 30260,
+      "variacao_yoy": 0.0454725710508922,
+      "violencia_pessoa": 9474,
+      "prioridade": "Priorizar prevenção"
+    },
+    "Hackney": {
+      "crimes": 28265,
+      "crimes_anterior": 26941,
+      "variacao_yoy": 0.0491444267102186,
+      "violencia_pessoa": 8832,
+      "prioridade": "Priorizar prevenção"
+    },
+    "Hillingdon": {
+      "crimes": 24341,
+      "crimes_anterior": 23234,
+      "variacao_yoy": 0.0476456916587759,
+      "violencia_pessoa": 7830,
+      "prioridade": "Priorizar prevenção"
+    },
+    "Havering": {
+      "crimes": 16903,
+      "crimes_anterior": 15870,
+      "variacao_yoy": 0.0650913673597983,
+      "violencia_pessoa": 5936,
+      "prioridade": "Priorizar prevenção"
+    },
+    "Hounslow": {
+      "crimes": 22251,
+      "crimes_anterior": 21286,
+      "variacao_yoy": 0.0453349619468195,
+      "violencia_pessoa": 7405,
+      "prioridade": "Priorizar prevenção"
+    },
+    "Westminster": {
+      "crimes": 48330,
+      "crimes_anterior": 47395,
+      "variacao_yoy": 0.019727819390231,
+      "violencia_pessoa": 10834,
+      "prioridade": "Priorizar prevenção"
+    },
+    "Lambeth": {
+      "crimes": 34071,
+      "crimes_anterior": 33164,
+      "variacao_yoy": 0.0273489325774936,
+      "violencia_pessoa": 10496,
+      "prioridade": "Priorizar prevenção"
+    },
+    "Ealing": {
+      "crimes": 27127,
+      "crimes_anterior": 26247,
+      "variacao_yoy": 0.0335276412542385,
+      "violencia_pessoa": 9396,
+      "prioridade": "Priorizar prevenção"
+    },
+    "Newham": {
+      "crimes": 30090,
+      "crimes_anterior": 29217,
+      "variacao_yoy": 0.0298798644624704,
+      "violencia_pessoa": 9646,
+      "prioridade": "Priorizar prevenção"
+    },
+    "Bexley": {
+      "crimes": 12840,
+      "crimes_anterior": 11990,
+      "variacao_yoy": 0.0708924103419516,
+      "violencia_pessoa": 4503,
+      "prioridade": "Priorizar prevenção"
+    },
+    "Richmond upon Thames": {
+      "crimes": 11074,
+      "crimes_anterior": 10413,
+      "variacao_yoy": 0.0634783443772207,
+      "violencia_pessoa": 3155,
+      "prioridade": "Priorizar prevenção"
+    },
+    "Barnet": {
+      "crimes": 24684,
+      "crimes_anterior": 24036,
+      "variacao_yoy": 0.0269595606590114,
+      "violencia_pessoa": 7499,
+      "prioridade": "Priorizar prevenção"
+    },
+    "Croydon": {
+      "crimes": 28712,
+      "crimes_anterior": 28089,
+      "variacao_yoy": 0.0221795008722275,
+      "violencia_pessoa": 10302,
+      "prioridade": "Priorizar prevenção"
+    },
+    "Lewisham": {
+      "crimes": 23904,
+      "crimes_anterior": 23437,
+      "variacao_yoy": 0.0199257584161795,
+      "violencia_pessoa": 8809,
+      "prioridade": "Priorizar prevenção"
+    },
+    "Islington": {
+      "crimes": 27092,
+      "crimes_anterior": 27032,
+      "variacao_yoy": 0.0022195915951464,
+      "violencia_pessoa": 7840,
+      "prioridade": "Priorizar prevenção"
+    },
+    "Wandsworth": {
+      "crimes": 23679,
+      "crimes_anterior": 22401,
+      "variacao_yoy": 0.0570510245078344,
+      "violencia_pessoa": 6809,
+      "prioridade": "Manter capacidade"
+    },
+    "Camden": {
+      "crimes": 29183,
+      "crimes_anterior": 29477,
+      "variacao_yoy": -0.0099738779387318,
+      "violencia_pessoa": 7626,
+      "prioridade": "Manter capacidade"
+    },
+    "Redbridge": {
+      "crimes": 19502,
+      "crimes_anterior": 18897,
+      "variacao_yoy": 0.0320156638619886,
+      "violencia_pessoa": 6411,
+      "prioridade": "Monitorar"
+    },
+    "Harrow": {
+      "crimes": 13153,
+      "crimes_anterior": 12601,
+      "variacao_yoy": 0.0438060471391159,
+      "violencia_pessoa": 4293,
+      "prioridade": "Monitorar"
+    },
+    "Kensington and Chelsea": {
+      "crimes": 19580,
+      "crimes_anterior": 19070,
+      "variacao_yoy": 0.02674357629785,
+      "violencia_pessoa": 4696,
+      "prioridade": "Monitorar"
+    },
+    "Merton": {
+      "crimes": 12755,
+      "crimes_anterior": 12273,
+      "variacao_yoy": 0.0392732013362666,
+      "violencia_pessoa": 4026,
+      "prioridade": "Monitorar"
+    },
+    "Enfield": {
+      "crimes": 22485,
+      "crimes_anterior": 22076,
+      "variacao_yoy": 0.0185269070483783,
+      "violencia_pessoa": 7409,
+      "prioridade": "Monitorar"
+    },
+    "Barking and Dagenham": {
+      "crimes": 16741,
+      "crimes_anterior": 16346,
+      "variacao_yoy": 0.0241649333170194,
+      "violencia_pessoa": 6067,
+      "prioridade": "Monitorar"
+    },
+    "Hammersmith and Fulham": {
+      "crimes": 20174,
+      "crimes_anterior": 19848,
+      "variacao_yoy": 0.0164248286981056,
+      "violencia_pessoa": 6118,
+      "prioridade": "Monitorar"
+    },
+    "Kingston upon Thames": {
+      "crimes": 9983,
+      "crimes_anterior": 9738,
+      "variacao_yoy": 0.0251591702608338,
+      "violencia_pessoa": 3194,
+      "prioridade": "Monitorar"
+    },
+    "Sutton": {
+      "crimes": 10658,
+      "crimes_anterior": 10598,
+      "variacao_yoy": 0.0056614455557652,
+      "violencia_pessoa": 3714,
+      "prioridade": "Monitorar"
+    },
+    "Waltham Forest": {
+      "crimes": 20716,
+      "crimes_anterior": 20969,
+      "variacao_yoy": -0.0120654299203586,
+      "violencia_pessoa": 7409,
+      "prioridade": "Monitorar"
+    },
+    "Bromley": {
+      "crimes": 20164,
+      "crimes_anterior": 20637,
+      "variacao_yoy": -0.0229199980617337,
+      "violencia_pessoa": 6650,
+      "prioridade": "Monitorar"
+    },
+    "City of London": {
+      "crimes": 178,
+      "crimes_anterior": 151,
+      "variacao_yoy": 0.1788079470198675,
+      "violencia_pessoa": 25,
+      "prioridade": "Revisar cobertura"
+    }
+  },
+  "validacoes_dados": 16,
+  "csv_integros": 13,
+  "pbix_gerado": true,
+  "conexao_nativa_powerbi_testada": true,
+  "pbix_conexao_direta_salvo": true,
+  "print_console_bigquery_capturado": true
+}

@@ -1,0 +1,25 @@
+﻿{
+    "executado_utc":  "2026-10-05T21:37:58.8849547Z",
+    "endpoint":  "localhost:52287",
+    "pbix_arquivo":  "LondonCrime_BigQuery_Conectado.pbix",
+    "pbix_tamanho_bytes":  570789,
+    "pbix_sha256":  "3f98fc573b67aa5affac9857ecd8a92f7a756763f2d1d0cc7de8b4cfb8f12c63",
+    "salvo_nativamente_utc":  "2026-10-05T21:33:00.3677549Z",
+    "parametro_usar_bigquery":  "true meta [IsParameterQuery=true, Type=\"Logical\", IsParameterQueryRequired=true]",
+    "resultados":  [
+                       {
+                           "[FatoRows]":  31860,
+                           "[TotalCrimes]":  6447758,
+                           "[Crimes2016]":  736121,
+                           "[Crimes2015]":  711624,
+                           "[Variacao2016]":  0.034424077883826287,
+                           "[Violencia2016]":  232381,
+                           "[DistritosPrioritarios]":  19,
+                           "[Haringey2016]":  27174,
+                           "[NullKeys]":  0,
+                           "[DuplicateGrain]":  0,
+                           "[NegativeValues]":  0,
+                           "[NaoPrioritario]":  0
+                       }
+                   ]
+}

@@ -1,0 +1,892 @@
+﻿ano,bairro,categoria_original,crimes,posicao
+2008,Barking and Dagenham,Theft and Handling,5354,1
+2008,Barking and Dagenham,Violence Against the Person,4995,2
+2008,Barking and Dagenham,Criminal Damage,2934,3
+2008,Barnet,Theft and Handling,9872,1
+2008,Barnet,Violence Against the Person,4836,2
+2008,Barnet,Burglary,3750,3
+2008,Bexley,Theft and Handling,5236,1
+2008,Bexley,Violence Against the Person,3271,2
+2008,Bexley,Criminal Damage,2893,3
+2008,Brent,Theft and Handling,7206,1
+2008,Brent,Violence Against the Person,5690,2
+2008,Brent,Burglary,3266,3
+2008,Bromley,Theft and Handling,8809,1
+2008,Bromley,Violence Against the Person,5231,2
+2008,Bromley,Criminal Damage,4230,3
+2008,Camden,Theft and Handling,14394,1
+2008,Camden,Violence Against the Person,5899,2
+2008,Camden,Drugs,3982,3
+2008,City of London,Burglary,0,1
+2008,City of London,Criminal Damage,0,2
+2008,City of London,Drugs,0,3
+2008,Croydon,Theft and Handling,9604,1
+2008,Croydon,Violence Against the Person,6761,2
+2008,Croydon,Criminal Damage,4511,3
+2008,Ealing,Theft and Handling,9562,1
+2008,Ealing,Violence Against the Person,7155,2
+2008,Ealing,Burglary,3837,3
+2008,Enfield,Theft and Handling,7454,1
+2008,Enfield,Burglary,3819,2
+2008,Enfield,Violence Against the Person,3767,3
+2008,Greenwich,Theft and Handling,7162,1
+2008,Greenwich,Violence Against the Person,5497,2
+2008,Greenwich,Criminal Damage,3353,3
+2008,Hackney,Theft and Handling,7569,1
+2008,Hackney,Violence Against the Person,5458,2
+2008,Hackney,Drugs,3197,3
+2008,Hammersmith and Fulham,Theft and Handling,8800,1
+2008,Hammersmith and Fulham,Violence Against the Person,4684,2
+2008,Hammersmith and Fulham,Burglary,2438,3
+2008,Haringey,Theft and Handling,9373,1
+2008,Haringey,Violence Against the Person,5104,2
+2008,Haringey,Burglary,3679,3
+2008,Harrow,Theft and Handling,4864,1
+2008,Harrow,Violence Against the Person,2965,2
+2008,Harrow,Burglary,2290,3
+2008,Havering,Theft and Handling,5635,1
+2008,Havering,Criminal Damage,2885,2
+2008,Havering,Violence Against the Person,2776,3
+2008,Hillingdon,Theft and Handling,8529,1
+2008,Hillingdon,Violence Against the Person,5948,2
+2008,Hillingdon,Criminal Damage,3667,3
+2008,Hounslow,Theft and Handling,6552,1
+2008,Hounslow,Violence Against the Person,5035,2
+2008,Hounslow,Criminal Damage,3003,3
+2008,Islington,Theft and Handling,11063,1
+2008,Islington,Violence Against the Person,5233,2
+2008,Islington,Drugs,3140,3
+2008,Kensington and Chelsea,Theft and Handling,10745,1
+2008,Kensington and Chelsea,Violence Against the Person,3046,2
+2008,Kensington and Chelsea,Drugs,2784,3
+2008,Kingston upon Thames,Theft and Handling,4614,1
+2008,Kingston upon Thames,Violence Against the Person,2240,2
+2008,Kingston upon Thames,Criminal Damage,1658,3
+2008,Lambeth,Theft and Handling,10869,1
+2008,Lambeth,Violence Against the Person,7399,2
+2008,Lambeth,Drugs,3848,3
+2008,Lewisham,Theft and Handling,8262,1
+2008,Lewisham,Violence Against the Person,7939,2
+2008,Lewisham,Criminal Damage,3710,3
+2008,Merton,Theft and Handling,4580,1
+2008,Merton,Violence Against the Person,3570,2
+2008,Merton,Criminal Damage,2149,3
+2008,Newham,Theft and Handling,11295,1
+2008,Newham,Violence Against the Person,6808,2
+2008,Newham,Criminal Damage,3690,3
+2008,Redbridge,Theft and Handling,7825,1
+2008,Redbridge,Violence Against the Person,3817,2
+2008,Redbridge,Burglary,3199,3
+2008,Richmond upon Thames,Theft and Handling,4559,1
+2008,Richmond upon Thames,Burglary,1897,2
+2008,Richmond upon Thames,Violence Against the Person,1870,3
+2008,Southwark,Theft and Handling,12222,1
+2008,Southwark,Violence Against the Person,7993,2
+2008,Southwark,Drugs,4178,3
+2008,Sutton,Theft and Handling,5284,1
+2008,Sutton,Violence Against the Person,2550,2
+2008,Sutton,Criminal Damage,2415,3
+2008,Tower Hamlets,Theft and Handling,8847,1
+2008,Tower Hamlets,Violence Against the Person,5423,2
+2008,Tower Hamlets,Criminal Damage,2869,3
+2008,Waltham Forest,Theft and Handling,8253,1
+2008,Waltham Forest,Violence Against the Person,5367,2
+2008,Waltham Forest,Burglary,3174,3
+2008,Wandsworth,Theft and Handling,10033,1
+2008,Wandsworth,Violence Against the Person,4820,2
+2008,Wandsworth,Criminal Damage,2857,3
+2008,Westminster,Theft and Handling,29266,1
+2008,Westminster,Violence Against the Person,6697,2
+2008,Westminster,Drugs,4075,3
+2009,Barking and Dagenham,Theft and Handling,5384,1
+2009,Barking and Dagenham,Violence Against the Person,5074,2
+2009,Barking and Dagenham,Criminal Damage,2721,3
+2009,Barnet,Theft and Handling,9441,1
+2009,Barnet,Violence Against the Person,4730,2
+2009,Barnet,Burglary,4090,3
+2009,Bexley,Theft and Handling,4793,1
+2009,Bexley,Violence Against the Person,3614,2
+2009,Bexley,Criminal Damage,2716,3
+2009,Brent,Theft and Handling,7659,1
+2009,Brent,Violence Against the Person,6386,2
+2009,Brent,Burglary,3546,3
+2009,Bromley,Theft and Handling,7641,1
+2009,Bromley,Violence Against the Person,5214,2
+2009,Bromley,Burglary,3626,3
+2009,Camden,Theft and Handling,15537,1
+2009,Camden,Violence Against the Person,5540,2
+2009,Camden,Burglary,3311,3
+2009,City of London,Burglary,0,1
+2009,City of London,Criminal Damage,0,2
+2009,City of London,Drugs,0,3
+2009,Croydon,Theft and Handling,10026,1
+2009,Croydon,Violence Against the Person,6873,2
+2009,Croydon,Criminal Damage,4224,3
+2009,Ealing,Theft and Handling,10119,1
+2009,Ealing,Violence Against the Person,7269,2
+2009,Ealing,Burglary,3881,3
+2009,Enfield,Theft and Handling,6807,1
+2009,Enfield,Violence Against the Person,4172,2
+2009,Enfield,Burglary,3880,3
+2009,Greenwich,Theft and Handling,6574,1
+2009,Greenwich,Violence Against the Person,5019,2
+2009,Greenwich,Criminal Damage,3190,3
+2009,Hackney,Theft and Handling,7249,1
+2009,Hackney,Violence Against the Person,5388,2
+2009,Hackney,Drugs,2734,3
+2009,Hammersmith and Fulham,Theft and Handling,9921,1
+2009,Hammersmith and Fulham,Violence Against the Person,4552,2
+2009,Hammersmith and Fulham,Drugs,1935,3
+2009,Haringey,Theft and Handling,8601,1
+2009,Haringey,Violence Against the Person,4996,2
+2009,Haringey,Burglary,3662,3
+2009,Harrow,Theft and Handling,4893,1
+2009,Harrow,Violence Against the Person,3281,2
+2009,Harrow,Burglary,2333,3
+2009,Havering,Theft and Handling,5067,1
+2009,Havering,Violence Against the Person,3042,2
+2009,Havering,Burglary,2652,3
+2009,Hillingdon,Theft and Handling,9441,1
+2009,Hillingdon,Violence Against the Person,5864,2
+2009,Hillingdon,Criminal Damage,3303,3
+2009,Hounslow,Theft and Handling,6706,1
+2009,Hounslow,Violence Against the Person,5083,2
+2009,Hounslow,Criminal Damage,2758,3
+2009,Islington,Theft and Handling,11278,1
+2009,Islington,Violence Against the Person,5402,2
+2009,Islington,Burglary,2801,3
+2009,Kensington and Chelsea,Theft and Handling,10147,1
+2009,Kensington and Chelsea,Violence Against the Person,2890,2
+2009,Kensington and Chelsea,Drugs,2064,3
+2009,Kingston upon Thames,Theft and Handling,4478,1
+2009,Kingston upon Thames,Violence Against the Person,2110,2
+2009,Kingston upon Thames,Criminal Damage,1433,3
+2009,Lambeth,Theft and Handling,10812,1
+2009,Lambeth,Violence Against the Person,7297,2
+2009,Lambeth,Burglary,3833,3
+2009,Lewisham,Theft and Handling,7377,1
+2009,Lewisham,Violence Against the Person,7284,2
+2009,Lewisham,Criminal Damage,3546,3
+2009,Merton,Theft and Handling,4682,1
+2009,Merton,Violence Against the Person,3378,2
+2009,Merton,Criminal Damage,2070,3
+2009,Newham,Theft and Handling,10632,1
+2009,Newham,Violence Against the Person,6773,2
+2009,Newham,Criminal Damage,3431,3
+2009,Redbridge,Theft and Handling,8074,1
+2009,Redbridge,Violence Against the Person,3865,2
+2009,Redbridge,Burglary,3321,3
+2009,Richmond upon Thames,Theft and Handling,4403,1
+2009,Richmond upon Thames,Violence Against the Person,2012,2
+2009,Richmond upon Thames,Burglary,1712,3
+2009,Southwark,Theft and Handling,10450,1
+2009,Southwark,Violence Against the Person,7870,2
+2009,Southwark,Drugs,3917,3
+2009,Sutton,Theft and Handling,4992,1
+2009,Sutton,Violence Against the Person,2646,2
+2009,Sutton,Criminal Damage,2137,3
+2009,Tower Hamlets,Theft and Handling,8011,1
+2009,Tower Hamlets,Violence Against the Person,5455,2
+2009,Tower Hamlets,Drugs,2792,3
+2009,Waltham Forest,Theft and Handling,8813,1
+2009,Waltham Forest,Violence Against the Person,5641,2
+2009,Waltham Forest,Burglary,3399,3
+2009,Wandsworth,Theft and Handling,9517,1
+2009,Wandsworth,Violence Against the Person,5004,2
+2009,Wandsworth,Burglary,2924,3
+2009,Westminster,Theft and Handling,29967,1
+2009,Westminster,Violence Against the Person,7053,2
+2009,Westminster,Drugs,3894,3
+2010,Barking and Dagenham,Theft and Handling,5805,1
+2010,Barking and Dagenham,Violence Against the Person,4545,2
+2010,Barking and Dagenham,Criminal Damage,2390,3
+2010,Barnet,Theft and Handling,9582,1
+2010,Barnet,Violence Against the Person,4435,2
+2010,Barnet,Burglary,4300,3
+2010,Bexley,Theft and Handling,4514,1
+2010,Bexley,Violence Against the Person,3180,2
+2010,Bexley,Criminal Damage,2201,3
+2010,Brent,Theft and Handling,7932,1
+2010,Brent,Violence Against the Person,6525,2
+2010,Brent,Burglary,3445,3
+2010,Bromley,Theft and Handling,7312,1
+2010,Bromley,Violence Against the Person,4674,2
+2010,Bromley,Burglary,2953,3
+2010,Camden,Theft and Handling,16425,1
+2010,Camden,Violence Against the Person,5890,2
+2010,Camden,Burglary,3217,3
+2010,City of London,Burglary,0,1
+2010,City of London,Criminal Damage,0,2
+2010,City of London,Drugs,0,3
+2010,Croydon,Theft and Handling,10494,1
+2010,Croydon,Violence Against the Person,6432,2
+2010,Croydon,Burglary,4219,3
+2010,Ealing,Theft and Handling,11454,1
+2010,Ealing,Violence Against the Person,8097,2
+2010,Ealing,Burglary,3738,3
+2010,Enfield,Theft and Handling,7165,1
+2010,Enfield,Violence Against the Person,4185,2
+2010,Enfield,Burglary,3324,3
+2010,Greenwich,Theft and Handling,6689,1
+2010,Greenwich,Violence Against the Person,4648,2
+2010,Greenwich,Criminal Damage,2760,3
+2010,Hackney,Theft and Handling,7736,1
+2010,Hackney,Violence Against the Person,5191,2
+2010,Hackney,Drugs,2083,3
+2010,Hammersmith and Fulham,Theft and Handling,10017,1
+2010,Hammersmith and Fulham,Violence Against the Person,4707,2
+2010,Hammersmith and Fulham,Burglary,2226,3
+2010,Haringey,Theft and Handling,8674,1
+2010,Haringey,Violence Against the Person,4732,2
+2010,Haringey,Burglary,3218,3
+2010,Harrow,Theft and Handling,5096,1
+2010,Harrow,Violence Against the Person,3301,2
+2010,Harrow,Burglary,2311,3
+2010,Havering,Theft and Handling,5496,1
+2010,Havering,Violence Against the Person,3499,2
+2010,Havering,Burglary,2271,3
+2010,Hillingdon,Theft and Handling,8678,1
+2010,Hillingdon,Violence Against the Person,5919,2
+2010,Hillingdon,Criminal Damage,3084,3
+2010,Hounslow,Theft and Handling,6811,1
+2010,Hounslow,Violence Against the Person,5241,2
+2010,Hounslow,Criminal Damage,2586,3
+2010,Islington,Theft and Handling,11578,1
+2010,Islington,Violence Against the Person,5493,2
+2010,Islington,Burglary,2415,3
+2010,Kensington and Chelsea,Theft and Handling,10911,1
+2010,Kensington and Chelsea,Violence Against the Person,2891,2
+2010,Kensington and Chelsea,Drugs,2153,3
+2010,Kingston upon Thames,Theft and Handling,4696,1
+2010,Kingston upon Thames,Violence Against the Person,2143,2
+2010,Kingston upon Thames,Criminal Damage,1286,3
+2010,Lambeth,Theft and Handling,11989,1
+2010,Lambeth,Violence Against the Person,7412,2
+2010,Lambeth,Burglary,3204,3
+2010,Lewisham,Theft and Handling,7899,1
+2010,Lewisham,Violence Against the Person,6328,2
+2010,Lewisham,Criminal Damage,3130,3
+2010,Merton,Theft and Handling,5228,1
+2010,Merton,Violence Against the Person,2899,2
+2010,Merton,Burglary,2069,3
+2010,Newham,Theft and Handling,12184,1
+2010,Newham,Violence Against the Person,6784,2
+2010,Newham,Burglary,3330,3
+2010,Redbridge,Theft and Handling,8482,1
+2010,Redbridge,Violence Against the Person,3825,2
+2010,Redbridge,Burglary,3239,3
+2010,Richmond upon Thames,Theft and Handling,4203,1
+2010,Richmond upon Thames,Violence Against the Person,2180,2
+2010,Richmond upon Thames,Burglary,1926,3
+2010,Southwark,Theft and Handling,11180,1
+2010,Southwark,Violence Against the Person,7439,2
+2010,Southwark,Drugs,4231,3
+2010,Sutton,Theft and Handling,5236,1
+2010,Sutton,Violence Against the Person,2316,2
+2010,Sutton,Criminal Damage,1898,3
+2010,Tower Hamlets,Theft and Handling,8817,1
+2010,Tower Hamlets,Violence Against the Person,5624,2
+2010,Tower Hamlets,Drugs,2828,3
+2010,Waltham Forest,Theft and Handling,9726,1
+2010,Waltham Forest,Violence Against the Person,5372,2
+2010,Waltham Forest,Burglary,3426,3
+2010,Wandsworth,Theft and Handling,9724,1
+2010,Wandsworth,Violence Against the Person,4860,2
+2010,Wandsworth,Burglary,2899,3
+2010,Westminster,Theft and Handling,29191,1
+2010,Westminster,Violence Against the Person,7127,2
+2010,Westminster,Drugs,4632,3
+2011,Barking and Dagenham,Theft and Handling,6070,1
+2011,Barking and Dagenham,Violence Against the Person,3934,2
+2011,Barking and Dagenham,Burglary,2301,3
+2011,Barnet,Theft and Handling,9952,1
+2011,Barnet,Burglary,4873,2
+2011,Barnet,Violence Against the Person,4127,3
+2011,Bexley,Theft and Handling,3979,1
+2011,Bexley,Violence Against the Person,2726,2
+2011,Bexley,Criminal Damage,1708,3
+2011,Brent,Theft and Handling,8398,1
+2011,Brent,Violence Against the Person,6804,2
+2011,Brent,Drugs,4042,3
+2011,Bromley,Theft and Handling,7680,1
+2011,Bromley,Violence Against the Person,4520,2
+2011,Bromley,Burglary,3119,3
+2011,Camden,Theft and Handling,18573,1
+2011,Camden,Violence Against the Person,5556,2
+2011,Camden,Burglary,3409,3
+2011,City of London,Theft and Handling,45,1
+2011,City of London,Violence Against the Person,14,2
+2011,City of London,Drugs,4,3
+2011,Croydon,Theft and Handling,10727,1
+2011,Croydon,Violence Against the Person,6554,2
+2011,Croydon,Burglary,4619,3
+2011,Ealing,Theft and Handling,11309,1
+2011,Ealing,Violence Against the Person,7100,2
+2011,Ealing,Burglary,3824,3
+2011,Enfield,Theft and Handling,7847,1
+2011,Enfield,Violence Against the Person,4074,2
+2011,Enfield,Burglary,3627,3
+2011,Greenwich,Theft and Handling,6878,1
+2011,Greenwich,Violence Against the Person,4555,2
+2011,Greenwich,Criminal Damage,2490,3
+2011,Hackney,Theft and Handling,9534,1
+2011,Hackney,Violence Against the Person,4697,2
+2011,Hackney,Drugs,2095,3
+2011,Hammersmith and Fulham,Theft and Handling,11008,1
+2011,Hammersmith and Fulham,Violence Against the Person,4256,2
+2011,Hammersmith and Fulham,Burglary,2499,3
+2011,Haringey,Theft and Handling,9191,1
+2011,Haringey,Violence Against the Person,4592,2
+2011,Haringey,Burglary,3564,3
+2011,Harrow,Theft and Handling,4442,1
+2011,Harrow,Violence Against the Person,2785,2
+2011,Harrow,Burglary,2586,3
+2011,Havering,Theft and Handling,6054,1
+2011,Havering,Violence Against the Person,3150,2
+2011,Havering,Burglary,2794,3
+2011,Hillingdon,Theft and Handling,9554,1
+2011,Hillingdon,Violence Against the Person,5342,2
+2011,Hillingdon,Burglary,3615,3
+2011,Hounslow,Theft and Handling,8127,1
+2011,Hounslow,Violence Against the Person,5086,2
+2011,Hounslow,Burglary,2665,3
+2011,Islington,Theft and Handling,12287,1
+2011,Islington,Violence Against the Person,4940,2
+2011,Islington,Burglary,2669,3
+2011,Kensington and Chelsea,Theft and Handling,11124,1
+2011,Kensington and Chelsea,Violence Against the Person,2737,2
+2011,Kensington and Chelsea,Burglary,1730,3
+2011,Kingston upon Thames,Theft and Handling,4531,1
+2011,Kingston upon Thames,Violence Against the Person,2146,2
+2011,Kingston upon Thames,Burglary,1320,3
+2011,Lambeth,Theft and Handling,13374,1
+2011,Lambeth,Violence Against the Person,6914,2
+2011,Lambeth,Burglary,3743,3
+2011,Lewisham,Theft and Handling,8123,1
+2011,Lewisham,Violence Against the Person,6092,2
+2011,Lewisham,Burglary,3116,3
+2011,Merton,Theft and Handling,5201,1
+2011,Merton,Violence Against the Person,2535,2
+2011,Merton,Burglary,2396,3
+2011,Newham,Theft and Handling,11464,1
+2011,Newham,Violence Against the Person,6147,2
+2011,Newham,Burglary,3040,3
+2011,Redbridge,Theft and Handling,8803,1
+2011,Redbridge,Burglary,3712,2
+2011,Redbridge,Violence Against the Person,3599,3
+2011,Richmond upon Thames,Theft and Handling,4723,1
+2011,Richmond upon Thames,Burglary,2060,2
+2011,Richmond upon Thames,Violence Against the Person,1886,3
+2011,Southwark,Theft and Handling,12513,1
+2011,Southwark,Violence Against the Person,6205,2
+2011,Southwark,Burglary,3259,3
+2011,Sutton,Theft and Handling,4630,1
+2011,Sutton,Violence Against the Person,2325,2
+2011,Sutton,Burglary,1609,3
+2011,Tower Hamlets,Theft and Handling,9934,1
+2011,Tower Hamlets,Violence Against the Person,5182,2
+2011,Tower Hamlets,Drugs,3109,3
+2011,Waltham Forest,Theft and Handling,9863,1
+2011,Waltham Forest,Violence Against the Person,4938,2
+2011,Waltham Forest,Burglary,3347,3
+2011,Wandsworth,Theft and Handling,9825,1
+2011,Wandsworth,Violence Against the Person,3951,2
+2011,Wandsworth,Burglary,2993,3
+2011,Westminster,Theft and Handling,33529,1
+2011,Westminster,Violence Against the Person,7432,2
+2011,Westminster,Drugs,5670,3
+2012,Barking and Dagenham,Theft and Handling,6173,1
+2012,Barking and Dagenham,Violence Against the Person,3734,2
+2012,Barking and Dagenham,Burglary,2435,3
+2012,Barnet,Theft and Handling,10451,1
+2012,Barnet,Burglary,4830,2
+2012,Barnet,Violence Against the Person,3942,3
+2012,Bexley,Theft and Handling,4414,1
+2012,Bexley,Violence Against the Person,2744,2
+2012,Bexley,Burglary,1693,3
+2012,Brent,Theft and Handling,8338,1
+2012,Brent,Violence Against the Person,6395,2
+2012,Brent,Burglary,3936,3
+2012,Bromley,Theft and Handling,7929,1
+2012,Bromley,Violence Against the Person,4143,2
+2012,Bromley,Burglary,3445,3
+2012,Camden,Theft and Handling,17717,1
+2012,Camden,Violence Against the Person,5117,2
+2012,Camden,Burglary,2935,3
+2012,City of London,Theft and Handling,121,1
+2012,City of London,Violence Against the Person,15,2
+2012,City of London,Drugs,6,3
+2012,Croydon,Theft and Handling,11754,1
+2012,Croydon,Violence Against the Person,6555,2
+2012,Croydon,Burglary,4038,3
+2012,Ealing,Theft and Handling,11555,1
+2012,Ealing,Violence Against the Person,6850,2
+2012,Ealing,Burglary,3940,3
+2012,Enfield,Theft and Handling,8425,1
+2012,Enfield,Violence Against the Person,4231,2
+2012,Enfield,Burglary,3719,3
+2012,Greenwich,Theft and Handling,7935,1
+2012,Greenwich,Violence Against the Person,5310,2
+2012,Greenwich,Burglary,2305,3
+2012,Hackney,Theft and Handling,13375,1
+2012,Hackney,Violence Against the Person,5716,2
+2012,Hackney,Burglary,2389,3
+2012,Hammersmith and Fulham,Theft and Handling,10777,1
+2012,Hammersmith and Fulham,Violence Against the Person,4242,2
+2012,Hammersmith and Fulham,Burglary,1864,3
+2012,Haringey,Theft and Handling,9957,1
+2012,Haringey,Violence Against the Person,4727,2
+2012,Haringey,Burglary,3435,3
+2012,Harrow,Theft and Handling,4551,1
+2012,Harrow,Violence Against the Person,2915,2
+2012,Harrow,Burglary,2515,3
+2012,Havering,Theft and Handling,6540,1
+2012,Havering,Violence Against the Person,3303,2
+2012,Havering,Burglary,2814,3
+2012,Hillingdon,Theft and Handling,8923,1
+2012,Hillingdon,Violence Against the Person,5109,2
+2012,Hillingdon,Burglary,3353,3
+2012,Hounslow,Theft and Handling,9427,1
+2012,Hounslow,Violence Against the Person,5360,2
+2012,Hounslow,Burglary,2932,3
+2012,Islington,Theft and Handling,13479,1
+2012,Islington,Violence Against the Person,5275,2
+2012,Islington,Burglary,2402,3
+2012,Kensington and Chelsea,Theft and Handling,12042,1
+2012,Kensington and Chelsea,Violence Against the Person,2664,2
+2012,Kensington and Chelsea,Burglary,1784,3
+2012,Kingston upon Thames,Theft and Handling,4458,1
+2012,Kingston upon Thames,Violence Against the Person,2263,2
+2012,Kingston upon Thames,Burglary,1373,3
+2012,Lambeth,Theft and Handling,15095,1
+2012,Lambeth,Violence Against the Person,6903,2
+2012,Lambeth,Burglary,3599,3
+2012,Lewisham,Theft and Handling,8986,1
+2012,Lewisham,Violence Against the Person,5868,2
+2012,Lewisham,Burglary,3296,3
+2012,Merton,Theft and Handling,5408,1
+2012,Merton,Violence Against the Person,2530,2
+2012,Merton,Burglary,2029,3
+2012,Newham,Theft and Handling,13416,1
+2012,Newham,Violence Against the Person,6615,2
+2012,Newham,Burglary,3056,3
+2012,Redbridge,Theft and Handling,8935,1
+2012,Redbridge,Violence Against the Person,4115,2
+2012,Redbridge,Burglary,3398,3
+2012,Richmond upon Thames,Theft and Handling,4998,1
+2012,Richmond upon Thames,Violence Against the Person,2056,2
+2012,Richmond upon Thames,Burglary,2008,3
+2012,Southwark,Theft and Handling,13200,1
+2012,Southwark,Violence Against the Person,6471,2
+2012,Southwark,Burglary,3278,3
+2012,Sutton,Theft and Handling,4378,1
+2012,Sutton,Violence Against the Person,2657,2
+2012,Sutton,Burglary,1536,3
+2012,Tower Hamlets,Theft and Handling,10902,1
+2012,Tower Hamlets,Violence Against the Person,6004,2
+2012,Tower Hamlets,Drugs,3259,3
+2012,Waltham Forest,Theft and Handling,9873,1
+2012,Waltham Forest,Violence Against the Person,4944,2
+2012,Waltham Forest,Burglary,2943,3
+2012,Wandsworth,Theft and Handling,12370,1
+2012,Wandsworth,Violence Against the Person,4111,2
+2012,Wandsworth,Burglary,3395,3
+2012,Westminster,Theft and Handling,38152,1
+2012,Westminster,Violence Against the Person,7130,2
+2012,Westminster,Drugs,4654,3
+2013,Barking and Dagenham,Theft and Handling,6140,1
+2013,Barking and Dagenham,Violence Against the Person,3889,2
+2013,Barking and Dagenham,Burglary,2222,3
+2013,Barnet,Theft and Handling,9958,1
+2013,Barnet,Violence Against the Person,4292,2
+2013,Barnet,Burglary,4262,3
+2013,Bexley,Theft and Handling,4293,1
+2013,Bexley,Violence Against the Person,2714,2
+2013,Bexley,Burglary,1784,3
+2013,Brent,Theft and Handling,7776,1
+2013,Brent,Violence Against the Person,5997,2
+2013,Brent,Drugs,3341,3
+2013,Bromley,Theft and Handling,7725,1
+2013,Bromley,Violence Against the Person,4207,2
+2013,Bromley,Burglary,3121,3
+2013,Camden,Theft and Handling,15767,1
+2013,Camden,Violence Against the Person,4551,2
+2013,Camden,Burglary,3085,3
+2013,City of London,Theft and Handling,79,1
+2013,City of London,Violence Against the Person,14,2
+2013,City of London,Drugs,4,3
+2013,Croydon,Theft and Handling,10307,1
+2013,Croydon,Violence Against the Person,6186,2
+2013,Croydon,Burglary,3958,3
+2013,Ealing,Theft and Handling,10564,1
+2013,Ealing,Violence Against the Person,6285,2
+2013,Ealing,Burglary,3584,3
+2013,Enfield,Theft and Handling,8814,1
+2013,Enfield,Violence Against the Person,4516,2
+2013,Enfield,Burglary,3449,3
+2013,Greenwich,Theft and Handling,7319,1
+2013,Greenwich,Violence Against the Person,5078,2
+2013,Greenwich,Burglary,2369,3
+2013,Hackney,Theft and Handling,12180,1
+2013,Hackney,Violence Against the Person,5745,2
+2013,Hackney,Burglary,2784,3
+2013,Hammersmith and Fulham,Theft and Handling,9048,1
+2013,Hammersmith and Fulham,Violence Against the Person,3961,2
+2013,Hammersmith and Fulham,Drugs,1958,3
+2013,Haringey,Theft and Handling,9305,1
+2013,Haringey,Violence Against the Person,4433,2
+2013,Haringey,Burglary,2731,3
+2013,Harrow,Theft and Handling,4057,1
+2013,Harrow,Violence Against the Person,3008,2
+2013,Harrow,Burglary,2097,3
+2013,Havering,Theft and Handling,6312,1
+2013,Havering,Violence Against the Person,3264,2
+2013,Havering,Burglary,2480,3
+2013,Hillingdon,Theft and Handling,8177,1
+2013,Hillingdon,Violence Against the Person,4955,2
+2013,Hillingdon,Burglary,2853,3
+2013,Hounslow,Theft and Handling,7911,1
+2013,Hounslow,Violence Against the Person,5047,2
+2013,Hounslow,Burglary,2473,3
+2013,Islington,Theft and Handling,12169,1
+2013,Islington,Violence Against the Person,4894,2
+2013,Islington,Burglary,2394,3
+2013,Kensington and Chelsea,Theft and Handling,10742,1
+2013,Kensington and Chelsea,Violence Against the Person,2530,2
+2013,Kensington and Chelsea,Burglary,1754,3
+2013,Kingston upon Thames,Theft and Handling,4161,1
+2013,Kingston upon Thames,Violence Against the Person,2045,2
+2013,Kingston upon Thames,Burglary,1190,3
+2013,Lambeth,Theft and Handling,13995,1
+2013,Lambeth,Violence Against the Person,6861,2
+2013,Lambeth,Burglary,3876,3
+2013,Lewisham,Theft and Handling,7319,1
+2013,Lewisham,Violence Against the Person,5941,2
+2013,Lewisham,Burglary,3297,3
+2013,Merton,Theft and Handling,4930,1
+2013,Merton,Violence Against the Person,2464,2
+2013,Merton,Burglary,1763,3
+2013,Newham,Theft and Handling,12271,1
+2013,Newham,Violence Against the Person,6154,2
+2013,Newham,Burglary,2904,3
+2013,Redbridge,Theft and Handling,8099,1
+2013,Redbridge,Violence Against the Person,4238,2
+2013,Redbridge,Burglary,2993,3
+2013,Richmond upon Thames,Theft and Handling,4489,1
+2013,Richmond upon Thames,Burglary,1927,2
+2013,Richmond upon Thames,Violence Against the Person,1910,3
+2013,Southwark,Theft and Handling,13689,1
+2013,Southwark,Violence Against the Person,6254,2
+2013,Southwark,Burglary,3458,3
+2013,Sutton,Theft and Handling,4173,1
+2013,Sutton,Violence Against the Person,2375,2
+2013,Sutton,Burglary,1427,3
+2013,Tower Hamlets,Theft and Handling,10430,1
+2013,Tower Hamlets,Violence Against the Person,6313,2
+2013,Tower Hamlets,Drugs,3019,3
+2013,Waltham Forest,Theft and Handling,9240,1
+2013,Waltham Forest,Violence Against the Person,5173,2
+2013,Waltham Forest,Burglary,2701,3
+2013,Wandsworth,Theft and Handling,11065,1
+2013,Wandsworth,Violence Against the Person,4000,2
+2013,Wandsworth,Burglary,3084,3
+2013,Westminster,Theft and Handling,33868,1
+2013,Westminster,Violence Against the Person,6887,2
+2013,Westminster,Drugs,4151,3
+2014,Barking and Dagenham,Theft and Handling,5289,1
+2014,Barking and Dagenham,Violence Against the Person,4965,2
+2014,Barking and Dagenham,Burglary,1894,3
+2014,Barnet,Theft and Handling,9094,1
+2014,Barnet,Violence Against the Person,5799,2
+2014,Barnet,Burglary,3621,3
+2014,Bexley,Theft and Handling,4285,1
+2014,Bexley,Violence Against the Person,3346,2
+2014,Bexley,Burglary,1539,3
+2014,Brent,Theft and Handling,7721,1
+2014,Brent,Violence Against the Person,7691,2
+2014,Brent,Drugs,2891,3
+2014,Bromley,Theft and Handling,7489,1
+2014,Bromley,Violence Against the Person,5512,2
+2014,Bromley,Burglary,2686,3
+2014,Camden,Theft and Handling,13640,1
+2014,Camden,Violence Against the Person,5687,2
+2014,Camden,Burglary,2925,3
+2014,City of London,Theft and Handling,83,1
+2014,City of London,Violence Against the Person,18,2
+2014,City of London,Criminal Damage,4,3
+2014,Croydon,Theft and Handling,9794,1
+2014,Croydon,Violence Against the Person,8248,2
+2014,Croydon,Burglary,3139,3
+2014,Ealing,Theft and Handling,9628,1
+2014,Ealing,Violence Against the Person,7393,2
+2014,Ealing,Burglary,2905,3
+2014,Enfield,Theft and Handling,7995,1
+2014,Enfield,Violence Against the Person,5965,2
+2014,Enfield,Burglary,3045,3
+2014,Greenwich,Theft and Handling,7250,1
+2014,Greenwich,Violence Against the Person,6444,2
+2014,Greenwich,Burglary,2145,3
+2014,Hackney,Theft and Handling,10500,1
+2014,Hackney,Violence Against the Person,7116,2
+2014,Hackney,Burglary,2669,3
+2014,Hammersmith and Fulham,Theft and Handling,8929,1
+2014,Hammersmith and Fulham,Violence Against the Person,4838,2
+2014,Hammersmith and Fulham,Drugs,1807,3
+2014,Haringey,Theft and Handling,8956,1
+2014,Haringey,Violence Against the Person,6251,2
+2014,Haringey,Burglary,2882,3
+2014,Harrow,Theft and Handling,3949,1
+2014,Harrow,Violence Against the Person,3467,2
+2014,Harrow,Burglary,1833,3
+2014,Havering,Theft and Handling,5736,1
+2014,Havering,Violence Against the Person,3965,2
+2014,Havering,Burglary,2122,3
+2014,Hillingdon,Theft and Handling,8859,1
+2014,Hillingdon,Violence Against the Person,6847,2
+2014,Hillingdon,Burglary,2681,3
+2014,Hounslow,Theft and Handling,7726,1
+2014,Hounslow,Violence Against the Person,6052,2
+2014,Hounslow,Criminal Damage,1940,3
+2014,Islington,Theft and Handling,11264,1
+2014,Islington,Violence Against the Person,6507,2
+2014,Islington,Burglary,2357,3
+2014,Kensington and Chelsea,Theft and Handling,10229,1
+2014,Kensington and Chelsea,Violence Against the Person,3580,2
+2014,Kensington and Chelsea,Burglary,1573,3
+2014,Kingston upon Thames,Theft and Handling,3927,1
+2014,Kingston upon Thames,Violence Against the Person,2385,2
+2014,Kingston upon Thames,Burglary,993,3
+2014,Lambeth,Theft and Handling,12647,1
+2014,Lambeth,Violence Against the Person,8953,2
+2014,Lambeth,Burglary,3019,3
+2014,Lewisham,Theft and Handling,7148,1
+2014,Lewisham,Violence Against the Person,6951,2
+2014,Lewisham,Burglary,2338,3
+2014,Merton,Theft and Handling,4623,1
+2014,Merton,Violence Against the Person,3023,2
+2014,Merton,Burglary,1679,3
+2014,Newham,Theft and Handling,11499,1
+2014,Newham,Violence Against the Person,7880,2
+2014,Newham,Burglary,2480,3
+2014,Redbridge,Theft and Handling,7025,1
+2014,Redbridge,Violence Against the Person,5667,2
+2014,Redbridge,Burglary,2631,3
+2014,Richmond upon Thames,Theft and Handling,4449,1
+2014,Richmond upon Thames,Violence Against the Person,2384,2
+2014,Richmond upon Thames,Burglary,1757,3
+2014,Southwark,Theft and Handling,11377,1
+2014,Southwark,Violence Against the Person,7771,2
+2014,Southwark,Burglary,2831,3
+2014,Sutton,Theft and Handling,3867,1
+2014,Sutton,Violence Against the Person,3130,2
+2014,Sutton,Burglary,1397,3
+2014,Tower Hamlets,Theft and Handling,9583,1
+2014,Tower Hamlets,Violence Against the Person,7555,2
+2014,Tower Hamlets,Burglary,2319,3
+2014,Waltham Forest,Theft and Handling,7479,1
+2014,Waltham Forest,Violence Against the Person,6141,2
+2014,Waltham Forest,Burglary,2472,3
+2014,Wandsworth,Theft and Handling,9696,1
+2014,Wandsworth,Violence Against the Person,5386,2
+2014,Wandsworth,Burglary,2676,3
+2014,Westminster,Theft and Handling,28144,1
+2014,Westminster,Violence Against the Person,8432,2
+2014,Westminster,Burglary,3435,3
+2015,Barking and Dagenham,Violence Against the Person,5888,1
+2015,Barking and Dagenham,Theft and Handling,5177,2
+2015,Barking and Dagenham,Criminal Damage,1822,3
+2015,Barnet,Theft and Handling,9204,1
+2015,Barnet,Violence Against the Person,6905,2
+2015,Barnet,Burglary,3853,3
+2015,Bexley,Theft and Handling,4165,1
+2015,Bexley,Violence Against the Person,3939,2
+2015,Bexley,Criminal Damage,1565,3
+2015,Brent,Violence Against the Person,8485,1
+2015,Brent,Theft and Handling,8467,2
+2015,Brent,Burglary,2701,3
+2015,Bromley,Theft and Handling,7573,1
+2015,Bromley,Violence Against the Person,6608,2
+2015,Bromley,Burglary,2524,3
+2015,Camden,Theft and Handling,14455,1
+2015,Camden,Violence Against the Person,7146,2
+2015,Camden,Burglary,2830,3
+2015,City of London,Theft and Handling,104,1
+2015,City of London,Violence Against the Person,28,2
+2015,City of London,Drugs,6,3
+2015,Croydon,Violence Against the Person,9880,1
+2015,Croydon,Theft and Handling,9502,2
+2015,Croydon,Criminal Damage,3113,3
+2015,Ealing,Theft and Handling,9603,1
+2015,Ealing,Violence Against the Person,8947,2
+2015,Ealing,Burglary,2630,3
+2015,Enfield,Theft and Handling,7827,1
+2015,Enfield,Violence Against the Person,6717,2
+2015,Enfield,Burglary,2809,3
+2015,Greenwich,Violence Against the Person,7756,1
+2015,Greenwich,Theft and Handling,7106,2
+2015,Greenwich,Criminal Damage,2281,3
+2015,Hackney,Theft and Handling,11124,1
+2015,Hackney,Violence Against the Person,8441,2
+2015,Hackney,Burglary,2514,3
+2015,Hammersmith and Fulham,Theft and Handling,8956,1
+2015,Hammersmith and Fulham,Violence Against the Person,5656,2
+2015,Hammersmith and Fulham,Burglary,1571,3
+2015,Haringey,Theft and Handling,9368,1
+2015,Haringey,Violence Against the Person,7534,2
+2015,Haringey,Burglary,2568,3
+2015,Harrow,Theft and Handling,4411,1
+2015,Harrow,Violence Against the Person,4198,2
+2015,Harrow,Burglary,1671,3
+2015,Havering,Theft and Handling,5850,1
+2015,Havering,Violence Against the Person,5033,2
+2015,Havering,Burglary,1940,3
+2015,Hillingdon,Theft and Handling,8822,1
+2015,Hillingdon,Violence Against the Person,7450,2
+2015,Hillingdon,Criminal Damage,2313,3
+2015,Hounslow,Theft and Handling,8238,1
+2015,Hounslow,Violence Against the Person,7095,2
+2015,Hounslow,Criminal Damage,2164,3
+2015,Islington,Theft and Handling,12466,1
+2015,Islington,Violence Against the Person,7391,2
+2015,Islington,Burglary,2349,3
+2015,Kensington and Chelsea,Theft and Handling,10168,1
+2015,Kensington and Chelsea,Violence Against the Person,4536,2
+2015,Kensington and Chelsea,Burglary,1590,3
+2015,Kingston upon Thames,Theft and Handling,3558,1
+2015,Kingston upon Thames,Violence Against the Person,3014,2
+2015,Kingston upon Thames,Criminal Damage,1028,3
+2015,Lambeth,Theft and Handling,12963,1
+2015,Lambeth,Violence Against the Person,10491,2
+2015,Lambeth,Criminal Damage,2692,3
+2015,Lewisham,Violence Against the Person,8440,1
+2015,Lewisham,Theft and Handling,7566,2
+2015,Lewisham,Criminal Damage,2466,3
+2015,Merton,Theft and Handling,4582,1
+2015,Merton,Violence Against the Person,3897,2
+2015,Merton,Burglary,1428,3
+2015,Newham,Theft and Handling,11421,1
+2015,Newham,Violence Against the Person,9414,2
+2015,Newham,Criminal Damage,2397,3
+2015,Redbridge,Theft and Handling,6806,1
+2015,Redbridge,Violence Against the Person,5893,2
+2015,Redbridge,Burglary,2245,3
+2015,Richmond upon Thames,Theft and Handling,4265,1
+2015,Richmond upon Thames,Violence Against the Person,2861,2
+2015,Richmond upon Thames,Burglary,1451,3
+2015,Southwark,Theft and Handling,11855,1
+2015,Southwark,Violence Against the Person,8879,2
+2015,Southwark,Burglary,2991,3
+2015,Sutton,Violence Against the Person,3696,1
+2015,Sutton,Theft and Handling,3457,2
+2015,Sutton,Criminal Damage,1321,3
+2015,Tower Hamlets,Theft and Handling,10143,1
+2015,Tower Hamlets,Violence Against the Person,8829,2
+2015,Tower Hamlets,Burglary,2560,3
+2015,Waltham Forest,Theft and Handling,7336,1
+2015,Waltham Forest,Violence Against the Person,6913,2
+2015,Waltham Forest,Burglary,2230,3
+2015,Wandsworth,Theft and Handling,9504,1
+2015,Wandsworth,Violence Against the Person,6924,2
+2015,Wandsworth,Burglary,2390,3
+2015,Westminster,Theft and Handling,27980,1
+2015,Westminster,Violence Against the Person,9856,2
+2015,Westminster,Burglary,3152,3
+2016,Barking and Dagenham,Violence Against the Person,6067,1
+2016,Barking and Dagenham,Theft and Handling,5607,2
+2016,Barking and Dagenham,Criminal Damage,1949,3
+2016,Barnet,Theft and Handling,9731,1
+2016,Barnet,Violence Against the Person,7499,2
+2016,Barnet,Burglary,3402,3
+2016,Bexley,Violence Against the Person,4503,1
+2016,Bexley,Theft and Handling,4392,2
+2016,Bexley,Criminal Damage,1673,3
+2016,Brent,Violence Against the Person,9205,1
+2016,Brent,Theft and Handling,9026,2
+2016,Brent,Burglary,2631,3
+2016,Bromley,Theft and Handling,7584,1
+2016,Bromley,Violence Against the Person,6650,2
+2016,Bromley,Burglary,2214,3
+2016,Camden,Theft and Handling,14088,1
+2016,Camden,Violence Against the Person,7626,2
+2016,Camden,Burglary,2652,3
+2016,City of London,Theft and Handling,129,1
+2016,City of London,Violence Against the Person,25,2
+2016,City of London,Drugs,10,3
+2016,Croydon,Violence Against the Person,10302,1
+2016,Croydon,Theft and Handling,9229,2
+2016,Croydon,Criminal Damage,3219,3
+2016,Ealing,Theft and Handling,10040,1
+2016,Ealing,Violence Against the Person,9396,2
+2016,Ealing,Criminal Damage,2562,3
+2016,Enfield,Theft and Handling,8037,1
+2016,Enfield,Violence Against the Person,7409,2
+2016,Enfield,Burglary,2541,3
+2016,Greenwich,Violence Against the Person,8590,1
+2016,Greenwich,Theft and Handling,8010,2
+2016,Greenwich,Criminal Damage,2476,3
+2016,Hackney,Theft and Handling,11851,1
+2016,Hackney,Violence Against the Person,8832,2
+2016,Hackney,Burglary,2719,3
+2016,Hammersmith and Fulham,Theft and Handling,8925,1
+2016,Hammersmith and Fulham,Violence Against the Person,6118,2
+2016,Hammersmith and Fulham,Burglary,1531,3
+2016,Haringey,Theft and Handling,10554,1
+2016,Haringey,Violence Against the Person,8574,2
+2016,Haringey,Burglary,2474,3
+2016,Harrow,Theft and Handling,4537,1
+2016,Harrow,Violence Against the Person,4293,2
+2016,Harrow,Burglary,1994,3
+2016,Havering,Violence Against the Person,5936,1
+2016,Havering,Theft and Handling,5919,2
+2016,Havering,Burglary,1826,3
+2016,Hillingdon,Theft and Handling,9045,1
+2016,Hillingdon,Violence Against the Person,7830,2
+2016,Hillingdon,Criminal Damage,2470,3
+2016,Hounslow,Theft and Handling,8682,1
+2016,Hounslow,Violence Against the Person,7405,2
+2016,Hounslow,Criminal Damage,2213,3
+2016,Islington,Theft and Handling,12077,1
+2016,Islington,Violence Against the Person,7840,2
+2016,Islington,Burglary,2051,3
+2016,Kensington and Chelsea,Theft and Handling,9855,1
+2016,Kensington and Chelsea,Violence Against the Person,4696,2
+2016,Kensington and Chelsea,Drugs,1680,3
+2016,Kingston upon Thames,Theft and Handling,3803,1
+2016,Kingston upon Thames,Violence Against the Person,3194,2
+2016,Kingston upon Thames,Criminal Damage,1054,3
+2016,Lambeth,Theft and Handling,13155,1
+2016,Lambeth,Violence Against the Person,10496,2
+2016,Lambeth,Burglary,3087,3
+2016,Lewisham,Violence Against the Person,8809,1
+2016,Lewisham,Theft and Handling,7702,2
+2016,Lewisham,Criminal Damage,2351,3
+2016,Merton,Theft and Handling,4894,1
+2016,Merton,Violence Against the Person,4026,2
+2016,Merton,Burglary,1419,3
+2016,Newham,Theft and Handling,11964,1
+2016,Newham,Violence Against the Person,9646,2
+2016,Newham,Criminal Damage,2496,3
+2016,Redbridge,Theft and Handling,7447,1
+2016,Redbridge,Violence Against the Person,6411,2
+2016,Redbridge,Burglary,1997,3
+2016,Richmond upon Thames,Theft and Handling,4769,1
+2016,Richmond upon Thames,Violence Against the Person,3155,2
+2016,Richmond upon Thames,Burglary,1359,3
+2016,Southwark,Theft and Handling,12946,1
+2016,Southwark,Violence Against the Person,9474,2
+2016,Southwark,Burglary,2946,3
+2016,Sutton,Violence Against the Person,3714,1
+2016,Sutton,Theft and Handling,3516,2
+2016,Sutton,Criminal Damage,1316,3
+2016,Tower Hamlets,Theft and Handling,10953,1
+2016,Tower Hamlets,Violence Against the Person,9608,2
+2016,Tower Hamlets,Burglary,2794,3
+2016,Waltham Forest,Violence Against the Person,7409,1
+2016,Waltham Forest,Theft and Handling,7357,2
+2016,Waltham Forest,Criminal Damage,1989,3
+2016,Wandsworth,Theft and Handling,10789,1
+2016,Wandsworth,Violence Against the Person,6809,2
+2016,Wandsworth,Burglary,2351,3
+2016,Westminster,Theft and Handling,27520,1
+2016,Westminster,Violence Against the Person,10834,2
+2016,Westminster,Burglary,3218,3

@@ -1,0 +1,6 @@
+﻿{
+    "executado_utc":  "2026-10-05T21:37:58.8849547Z",
+    "endpoint":  "localhost:52287",
+    "Name":  "UsarBigQuery",
+    "Expression":  "true meta [IsParameterQuery=true, Type=\"Logical\", IsParameterQueryRequired=true]"
+}

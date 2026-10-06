@@ -1,0 +1,10 @@
+﻿crime_id,categoria_original,categoria,violencia_pessoa,comparacao_limitada
+1,Burglary,Invasão e furto em imóvel,False,False
+2,Criminal Damage,Dano ao patrimônio,False,False
+3,Drugs,Drogas,False,False
+4,Fraud or Forgery,Fraude ou falsificação,False,True
+5,Other Notifiable Offences,Outras infrações,False,False
+6,Robbery,Roubo,False,False
+7,Sexual Offences,Crimes sexuais,False,True
+8,Theft and Handling,Furto e receptação,False,False
+9,Violence Against the Person,Violência contra a pessoa,True,False
